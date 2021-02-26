@@ -19,7 +19,7 @@
                        <a href="<?php echo base_url('guidelines/statusshow'); ?>" class="btn btn-success float-left mb-3">Active Guide</a>
                        <a href="<?php echo base_url('guidelines/create'); ?>" class="btn btn-success float-right mb-3">+</a>
                        </div>
-                       </div>
+                       
                        <table id="dataTable" class="table table-bordered">
                 <thead>
                     <th>No</th>
@@ -31,7 +31,7 @@
                     <th>created date</th>
                     <th>updated by</th>
                     <th>updated date</th>
-                    <th>file</th>
+                    <!-- <th>file</th> -->
                     <th>Action</th>
                 </thead>
                 <tbody>
@@ -41,12 +41,12 @@
                         <td><?php echo $data['guidelines_name']; ?></td>
                         <td><?php echo $data['guidelines_description']; ?></td>
                         <td><?php echo $data['guidelines_type']; ?></td>
-                        <td><?php echo $data['guidelines_link']; ?></td>
+                        <td><a class="nav-link text-primary" target="_blank" href="<?php echo $data['guidelines_link']; ?>"><?php echo $data['guidelines_link']; ?></a></td>
                         <td><?php echo $data['created_by']; ?></td>
                         <td><?php echo $data['created_date']; ?></td>
                         <td><?php echo $data['updated_by']; ?></td>
                         <td><?php echo $data['updated_date']; ?></td>
-                        <td><a class="nav-link text-primary" target="_blank" href="<?php echo base_url(); ?>/assets/images/<?php echo $data['file']; ?>"><?php echo $data['file']; ?></a></td>
+                        <!-- <td><a class="nav-link text-primary" target="_blank" href="< base_url(); ?>/assets/images/< $data['file']; ?>">< $data['file']; ?></a></td> -->
                         <td>
                             <div class="btn-group">
                                 <a href="<?php echo base_url('guidelines/edit/'.$data['guidelines_id']); ?>" class="btn btn-primary float-right mb-3"><i class="fas fa-edit"></i></a>
@@ -66,6 +66,7 @@
                 <div class="col-auto">
                     <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
                     </div>
+                            </div>
                             </div>
 
                         </div>

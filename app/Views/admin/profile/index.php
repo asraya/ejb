@@ -1,11 +1,5 @@
 
-<!-- Begin Page Content -->
 <div class="container-fluid">
-
-    <!-- Page Heading -->
-<div class="d-sm-flex align-items-center justify-content-between mb-4">
- <h1 class="h3 mb-0 text-gray-800">Profile</h1>
- </div>
 
 <div class="row">
 
@@ -16,33 +10,98 @@
 	                <?php echo session()->getFlashdata('berhasil');?>
 	            </div>
 	        <?php } ?>
-	        
-			<form action="<?php echo base_url('guidelines/store') ?>" method="post" accept-charset="utf-8" enctype="multipart/form-data">
 
-    		<div class="row">
-			
-    			<div class="col-md-4">
-    				<label>id</label>
-					<div class="col-sm-9">
-					<input type="text" class="form-control" name="user_id" value="<?= $user->get('admin_user_id')?>" readonly>
-					  </div>	
-    			</div>
-				<div class="col-md-4">
-    				<label>name</label>
-					<div class="col-sm-9">
-					<input type="text" class="form-control" name="user_id" value="<?= $user->get('admin_username')?>" readonly>
-					  </div>	
-    			</div>
-    			<!-- <div class="col-md-4">
-    				<label>Aksi</label>
-    				<div class="form-group">
-                    <button type="submit" class="btn btn-primary">Save</button>
-                	</div>	
-    			</div> -->
-    		</div>
-    	</div>
-	</div>
-</div>
-</div>
-    </div>
+		
+		
+		<div class="row">
+
+                        <!-- Area Chart -->
+						<div class="col-xl-4 col-lg-5">
+                            <div class="card shadow mb-4">
+							<div class="card border-left-primary shadow h-100 py-2">
+
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Profile Picture</h6>
+                                    
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+								<div class="dropdown-list-image mr-3">
+
+		<img class="rounded-circle" target="_blank" src="<?= base_url(); ?>/assets/images/<?= user()->file; ?>">
 		</div>
+								</div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- Pie Chart -->
+                       
+
+							<div class="col-xl-8 col-lg-7">
+                            <div class="card shadow mb-4">
+							<div class="card border-left-primary shadow h-100 py-2">
+
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Account Details #<?= user()->username; ?></h6>
+									<div class="card border-left-primary shadow h-100 py-2">
+                                       
+                                    </div>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+
+								<form action="<?php echo base_url('/store') ?>" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+
+<div class="row">			
+	
+	<div class="col-md-6">
+		<label>name</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control" name="user_id" value="<?= user()->name; ?>" readonly>
+		  </div>	
+	</div>
+	<div class="col-md-6">
+		<label>Pangkat</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control" name="user_id" value="<?= user()->pangkat; ?>" readonly>
+		  </div>	
+	</div>
+	<div class="col-md-6">
+		<label>Jenis kelamin</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control" name="user_id" value="<?= user()->jenis_kelamin; ?>" readonly>
+		  </div>	
+	</div>
+	<div class="col-md-6">
+		<label>Nrp</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control" name="user_id" value="<?= user()->nrp; ?>" readonly>
+		  </div>	
+	</div>
+	<div class="col-md-6">
+		<label>Tempat lahir</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control" name="user_id" value="<?= user()->tempat_lahir; ?>">
+		  </div>	
+	</div>
+	<div class="col-md-6">
+		<label>Tanggal lahir</label>
+		<div class="col-sm-9">
+		<input type="date" class="form-control" name="user_id" value="<?= user()->tanggal_lahir; ?>">
+		  </div>	
+	</div>
+		</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>

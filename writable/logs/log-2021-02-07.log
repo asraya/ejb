@@ -1,0 +1,686 @@
+CRITICAL - 2021-02-07 22:55:00 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 22:55:37 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 22:55:50 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 22:55:57 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 22:56:44 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 22:56:44 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 22:57:28 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 22:57:28 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 22:59:01 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 22:59:01 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 22:59:05 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 22:59:05 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:00:34 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:00:34 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:02:29 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:02:29 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:03:45 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:03:46 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:04:12 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:04:12 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:04:58 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:04:58 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:05:13 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:05:13 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:06:24 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:06:24 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:07:33 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:07:33 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:08:34 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:08:34 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:09:43 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:09:43 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:11:26 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:11:26 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:11:37 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:11:37 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:12:10 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:12:10 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:14:48 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(12): CodeIgniter\Model->__call('get', Array)
+#3 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-07 23:15:25 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:15:26 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:16:15 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:16:15 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:16:25 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(14): App\Models\GuidelinesModel->getGuidelines()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:16:25 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Guidelines), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:19:18 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\ProductModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Product.php(22): App\Models\ProductModel->getProduct()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:19:18 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Product), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:19:52 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\ProductModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Product.php(22): App\Models\ProductModel->getProduct()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:19:52 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Product), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:25:17 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\ProductModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Product.php(22): App\Models\ProductModel->getProduct()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:25:17 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Product), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:27:03 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\ProductModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Product.php(21): App\Models\ProductModel->getProduct()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:27:03 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Product), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:27:23 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\ProductModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Product.php(21): App\Models\ProductModel->getProduct()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:27:23 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Product), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:27:27 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sadhelx-admin\app\Models\ProductModel.php(13): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Product.php(21): App\Models\ProductModel->getProduct()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-07 23:27:27 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Product), true)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 23:32:34 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Product->index()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-07 23:34:07 --> Undefined variable: guidelines
+#0 C:\xampp\htdocs\sadhelx-admin\app\Views\admin\guide\guidelines.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/guide/gui...', Array, true)
+#3 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(15): view('admin/guide/gui...', Array)
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->index()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-07 23:55:41 --> Undefined variable: guideline
+#0 C:\xampp\htdocs\sadhelx-admin\app\Views\admin\guide\create_guidelines.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/guide/cre...', Array, true)
+#3 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(20): view('admin/guide/cre...')
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

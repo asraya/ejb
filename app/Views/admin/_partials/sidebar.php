@@ -1,21 +1,33 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <center>
+            <img class="img-profile rounded-circle"  src="img/korlantas.png"  height="120" width="120">
+            </center>
+
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('home') ?>">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+
                 </div>
-                <div class="sidebar-brand-text mx-3">SadhelX <sup></sup></div>
+
+                <div class="sidebar-brand-text mx-3">Seleksi Trainer isdc<sup></sup></div>
             </a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
+            <?php if ( in_groups('admin')) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('dashboard') ?>">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Dashboard</span></a>
+            </li>
+            <?php endif; ?>
             <li class="nav-item active">
             <a class="nav-link" href="<?php echo base_url('home') ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span>Upload Data</span></a>
             </li>
 
             <!-- Divider -->
@@ -62,27 +74,32 @@
             </li> -->
 
             <!-- Divider -->
-            <hr class="sidebar-divider">
+            <!-- <hr class="sidebar-divider"> -->
 
             <!-- Heading -->
-            <div class="sidebar-heading">
+            <!-- <div class="sidebar-heading">
                 Addons
-            </div>
+            </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <!-- <li class="nav-item">
+            <?php if ( in_groups('admin')) : ?>
+
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                     aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
+                    <span>Master Data</span>
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
-                        <a class="collapse-item" href="register.html">Register</a>
-                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                        <div class="collapse-divider"></div>
+                        <h6 class="collapse-header">Data:</h6>
+                        <a class="collapse-item" href="<?php echo base_url('master_data_user') ?>">Master Peserta</a>
+
+                        <a class="collapse-item" href="<?php echo base_url('master_data_penguji') ?>">Master Penguji</a>
+                        <a class="collapse-item" href="forgot-password.html">Master Pengawas</a>
+                        <?php endif; ?>
+
+                        <!--<div class="collapse-divider"></div>
                         <h6 class="collapse-header">Other Pages:</h6>
                         <a class="collapse-item" href="404.html">404 Page</a>
                         <a class="collapse-item" href="blank.html">Blank Page</a>
@@ -102,16 +119,67 @@
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span></a>
-            </li> -->
-
-              <!-- Nav Item - Tables -->
-           
-              <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('guidelines') ?>">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Guidelines</span></a>
             </li>
-          
+
+               Nav Item - Tables -->
+           
+            <?php if ( in_groups('admin')) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('bank_soal') ?>">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Bank Soal</span></a>
+            </li>
+
+            <?php endif; ?>
+            <?php if ( in_groups('admin')) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('TestWawancara') ?>">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Test wawancara</span></a>
+            </li>
+            <?php endif; ?>
+
+            <?php if ( in_groups('admin')) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('Hasil_ujian_pilihan') ?>">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Hasil Ujian</span></a>
+            </li>
+            <?php endif; ?>
+
+            <?php if ( in_groups('admin')) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('testUji') ?>">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Test pilihan ganda</span></a>
+            </li>
+            <?php endif; ?>
+
+            <?php if ( in_groups('admin')) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('categorytest') ?>">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Category Test</span></a>
+            </li>
+            <?php endif; ?>
+            <?php if ( in_groups(['admin', 'penguji', 'pengawas'])) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('master_data_user') ?>">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>User Management</span></a>                    
+            </li>
+            <?php endif; ?>
+ 
+            <?php if ( in_groups('penguji')) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('hasil') ?>">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Hasil</span></a>
+            </li>
+            <?php endif; ?>
+
+           
+
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 

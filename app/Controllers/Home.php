@@ -1,10 +1,12 @@
 <?php namespace App\Controllers;
-use CodeIgniter\Controller;
 
-class Home extends Controller
+
+
+class Home extends BaseController
 {
-
-	public function index()
+	// Main page
+	
+		public function index()
 	{ 
 		$session = session();
         $data = array(	'title'		=> 'Data',
@@ -13,5 +15,6 @@ class Home extends Controller
 		return view('admin/_partials/wrapper',$data);
         
     }
-
+		// return view('index');
+	
 }

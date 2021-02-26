@@ -33,10 +33,10 @@ class Database extends \CodeIgniter\Database\Config
         'dsn'      => '',
 		// 'hostname' => 'localhost',
 		'hostname' => 'localhost',
-		'username' => 'postgres',
-		'password' => 'postgres',
-		'database' => 'sdx_db',
-		'DBDriver' => 'postgre',
+		'username' => 'root',
+		'password' => '',
+		'database' => 'korlantas_db',
+		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
 		'DBDebug'  => (ENVIRONMENT !== 'development'),
@@ -49,7 +49,7 @@ class Database extends \CodeIgniter\Database\Config
 		'compress' => false,
 		'strictOn' => false,
 		'failover' => [],
-		'port'     => 5432,
+		'port'     => 3306,
 	];
 
 	/**

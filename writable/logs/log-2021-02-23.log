@@ -1,0 +1,110 @@
+CRITICAL - 2021-02-23 09:34:42 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#5 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptLogin()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-02-23 09:34:43 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\korlantas\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\korlantas\app\Views\errors\html\error_exception.php(100): print_r(Object(Myth\Auth\Controllers\AuthController), true)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-23 09:58:39 --> strong_password is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('strong_password')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'rayana2', Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(174): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptRegister()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-23 13:23:46 --> Unknown column 'username' in 'where clause'
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#7 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptLogin()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-02-23 20:37:20 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Models\CategoryModel.php(17): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(141): Myth\Auth\Models\CategoryModel->listing()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->register()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-23 20:38:01 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Model...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Model...')
+#3 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(139): spl_autoload_call('Myth\\Auth\\Model...')
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->register()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-23 20:39:03 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Models\CategoryModel.php(17): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\korlantas\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(141): Myth\Auth\Models\CategoryModel->listing()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->register()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-02-23 20:39:03 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\korlantas\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\korlantas\app\Views\errors\html\error_exception.php(100): print_r(Object(Myth\Auth\Controllers\AuthController), true)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-23 23:56:51 --> Invalid file: admin/banksoal/motor/create.php
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/banksoal/...')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/banksoal/...', Array, true)
+#2 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/banksoal/...')
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrapper.php(10): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#6 C:\xampp\htdocs\korlantas\app\Controllers\Bank_soal.php(31): view('admin/_partials...', Array)
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Bank_soal->create()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bank_soal))
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}

@@ -13,14 +13,12 @@ class Guidelines extends Controller
 	}
     public function index()
     {
-
         $model = new GuidelinesModel();
 		$guideline = $model->getGuidelines();
         $data = array(	'title'		=> 'Data',
                         'guideline'	=> $guideline,
 						'content'	=> 'admin/guide/index');
-		return view('admin/_partials/wrapper',$data);
-        
+		return view('admin/_partials/wrapper',$data);        
     }
     public function statusshow()
 	{             
@@ -38,7 +36,7 @@ class Guidelines extends Controller
         $model = new GuidelinesShowModel();
         $data = array(
             'active_id' => $id,
-            'activated_by'	=> $session,
+            'activated_by'	=> session()->get('admin_username'),
             'active_date' => date("Y-m-d"),
             'fk_guidelines_id'  => $id,
         );
@@ -46,46 +44,6 @@ class Guidelines extends Controller
         $model->insert_active_guidelines($data);        
         return redirect()->to(base_url('guidelines'))->with('berhasil', 'Data Berhasil di Simpan');
 
-        // $model->insert_active_guidelines($data);
-       
-        // echo "<pre>";
-        // print_r($data);
-        // // $model->insert_Guidelines($data);  
-        // // $db->insert('tbl_trx_active_guidelines',$data); 
-        // $save = $this->db->table('tbl_trx_active_guidelines')->insert($data);
-        // print_r($save);die;
-        // $builder->insert($data);
-        // echo $db->last_query();die;
-        // $model->insert_active_guidelines($data);
-
-            // $fk_guidelines_id = $this->request->getPost('fk_guidelines_id', true);
-
-            // $model = new GuidelinesModel();
-            // $data = $model->getGuidelinesById($fk_guidelines_id);
-            // $guidelines_name = explode(' ', $model->guidelines_name);
-            // $active_id = $guidelines_name[0];
-           
-            
-            // $username = $model->nip;
-            // $password = $model->nip;
-            // $email = $model->email;
-            // $additional_data = [
-            //     'active_id'	=> $active_id,
-            // ];
-
-
-            // $group = array('2'); // Sets user to dosen.
-    
-          
-            
-            //     $model->register($username, $password, $email, $additional_data, $group);
-            //     $data = [
-            //         'status'	=> true,
-            //         'msg'	 => 'User berhasil dibuat. NIP digunakan sebagai password pada saat login.'
-            //     ];
-            
-            // $this->output_json($data);
-        
     }
     public function create()
     {        
@@ -127,11 +85,11 @@ class Guidelines extends Controller
             'updated_date' => date("Y-m-d H:i:s"),
             'updated_by'  => $this->request->getPost('updated_by'),
 
-            'file' => $upload->getName()
+            // 'file' => $upload->getName()
         );
         
         $model->insert_Guidelines($data);
-        return redirect()->to(base_url('guidelines'))->with('berhasil', 'Data Berhasil di Simpan');
+        return redirect()->to(base_url('guidelines/create'))->with('berhasil', 'Data Berhasil di Simpan');
         }
     }
     public function edit($id)

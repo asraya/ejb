@@ -1,0 +1,653 @@
+CRITICAL - 2021-02-13 02:32:04 --> Undefined variable: subjudul
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\dosen.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Router\Router.php(583): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('dosen')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('dosen')
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-02-13 02:32:29 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Router\Router.php(583): include_once()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('dosen')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('dosen')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 02:34:15 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('dosen')
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('dosen')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 02:41:41 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-13 03:11:46 --> Call to undefined method App\Controllers\Dosen::getDosen()
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dosen->index()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-13 03:57:45 --> Undefined property: App\Controllers\Guidelines::$input
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:02:34 --> Undefined property: App\Controllers\Guidelines::$master
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:04:44 --> Undefined variable: id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:05:36 --> Undefined variable: id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:05:51 --> Undefined variable: id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:06:06 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 1 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:06:24 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::get_where()
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById(NULL)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:06:52 --> Undefined variable: guidelines_id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:07:05 --> Undefined variable: guidelines_id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:07:23 --> Undefined variable: guidelines_id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:08:12 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 1 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:09:27 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 2 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:10:10 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 1 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:10:23 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 2 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:10:46 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 2 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:11:38 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 2 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:11:50 --> Undefined variable: guidelines_id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:11:55 --> Undefined variable: id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:12:01 --> Undefined variable: guidelines_id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:12:40 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 2 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:13:26 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 1 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:14:12 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 0 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 1 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById()
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:14:24 --> Undefined variable: id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:15:28 --> Undefined variable: id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:16:09 --> Call to undefined method App\Models\GuidelinesModel::getGuidelinesById
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Model->__call('getGuidelinesBy...', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:16:37 --> Call to undefined method App\Models\GuidelinesModel::getGuidelinesById
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): CodeIgniter\Model->__call('getGuidelinesBy...', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:16:55 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::get_where()
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById(NULL)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:17:38 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::where()
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById(NULL)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:18:08 --> Too few arguments to function App\Models\GuidelinesModel::getGuidelinesById(), 1 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 40 and exactly 2 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById(NULL)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:18:40 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::where()
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById(NULL)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:19:35 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::row()
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(40): App\Models\GuidelinesModel->getGuidelinesById(NULL)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:19:53 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$nama_dosen
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:20:29 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$guidelines_name
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:21:05 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$nip
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:22:37 --> Undefined property: App\Controllers\Guidelines::$ion_auth
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:23:20 --> Undefined variable: username
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:24:10 --> Undefined variable: username
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:27:34 --> syntax error, unexpected ''active_date'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Guid...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Guid...')
+#3 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(39): spl_autoload_call('App\\Models\\Guid...')
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-13 04:28:15 --> Undefined variable: username
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:28:55 --> Undefined variable: active_id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:30:53 --> Too few arguments to function App\Models\GuidelinesModel::register(), 1 passed in C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php on line 46 and at least 3 expected
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(46): App\Models\GuidelinesModel->register(Object(CodeIgniter\Database\Postgre\Builder))
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:32:17 --> Undefined variable: username
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:32:59 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$nama_dosen
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:33:52 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$fk_guidelines_id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:34:01 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$nip
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:34:40 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$nip
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:34:48 --> Undefined variable: first_name
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:35:08 --> Undefined variable: additional_data
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:35:15 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(56): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 04:35:50 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(56): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 04:37:15 --> Undefined variable: active_id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:37:59 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$nama_dosen
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:38:27 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$guidelines_name
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:38:32 --> Undefined property: CodeIgniter\Database\Postgre\Builder::$guidelines_name
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:38:59 --> Undefined variable: nama
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 04:39:08 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 04:39:48 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 04:40:06 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 04:40:31 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 05:18:47 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 05:18:53 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 05:18:57 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('16')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 07:57:00 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::get_where()
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 07:57:40 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::where()
+#0 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-13 07:58:14 --> Undefined variable: manual_activation
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 07:59:30 --> Undefined variable: active_by
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 08:00:27 --> Undefined variable: fk_guidelines_id
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 08:00:38 --> Call to undefined method App\Models\GuidelinesModel::_filter_data
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(66): CodeIgniter\Model->__call('_filter_data', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 08:02:50 --> array_merge(): Expected parameter 1 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(66): array_merge(NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-02-13 08:03:14 --> Call to undefined method App\Models\GuidelinesModel::tables
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(66): CodeIgniter\Model->__call('tables', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 08:03:26 --> array_merge(): Expected parameter 1 to be an array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(66): array_merge(Object(App\Models\GuidelinesModel), Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#5 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-02-13 08:06:55 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 08:07:54 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-13 09:24:17 --> Call to undefined method App\Models\GuidelinesModel::trigger_events
+#0 C:\xampp\htdocs\sadhelx-admin\app\Models\GuidelinesModel.php(53): CodeIgniter\Model->__call('trigger_events', Array)
+#1 C:\xampp\htdocs\sadhelx-admin\app\Controllers\Guidelines.php(57): App\Models\GuidelinesModel->register(NULL, NULL, NULL, Array, Array)
+#2 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guidelines->create_active('15')
+#3 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guidelines))
+#4 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sadhelx-admin\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sadhelx-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
