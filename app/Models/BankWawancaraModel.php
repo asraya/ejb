@@ -9,18 +9,25 @@ class BankWawancaraModel extends Model
     protected $createdField  = 'created_on';
     protected $updatedField  = 'updated_on';
     
-    public function getBank($id = false)
-    {        
-        if($id === false){
-            return $this->table('tb_soal')
-            ->get()
-            ->getResultArray();
-        } else {
-            return $this->table('tb_soal')
-                        ->where('id_soal', $id)
-                        ->get()
-                        ->getRowArray();
-        }   
+    // public function getBankWawancara($id = false)
+    // {        
+    //     if($id === false){
+    //         return $this->table('tb_soal_wawancara')
+    //         ->get()
+    //         ->getResultArray();
+    //     } else {
+    //         return $this->table('tb_soal_wawancara')
+    //                     ->where('id_soal', $id)
+    //                     ->get()
+    //                     ->getRowArray();
+    //     }   
+    // }
+    public function getBankWawancara($id)
+    {
+         return $this->table('tb_soal_wawancara')
+         ->join('users','users.id=tb_soal_wawancara.category_id')
+         ->get()
+		 ->getResultArray();
     }
     public function saveSoal($data)
     {

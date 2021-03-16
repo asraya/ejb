@@ -88,7 +88,7 @@
                                         <select class="form-control" name="pangkat" id="pangkat" required>
                                             <option  value="">No Selected</option>
                                             <?php foreach($pangkat as $row):?>
-                                            <option value="<?php echo $row['id'] ?>"><?php echo $row['name'] ?></option>
+                                            <option value="<?php echo $row['id'] ?>"><?php echo $row['pangkat'] ?></option>
                                             <?php endforeach;?>
                                         </select>
                                     </div> 
@@ -105,7 +105,7 @@
                                         <select class="form-control" name="asal_polda" id="asal_polda" required>
                                             <option value="">No Selected</option>
                                             <?php foreach($asal_polda as $row):?>
-                                            <option  value="<?php echo $row['id'] ?>"><?php echo $row['name'] ?></option>
+                                            <option  value="<?php echo $row['id'] ?>"><?php echo $row['asal_polda'] ?></option>
                                             <?php endforeach;?>
                                         </select>
                                     </div>                                  

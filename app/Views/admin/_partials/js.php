@@ -20,13 +20,35 @@
 
     <?= $this->section('script') ?>
     <script src="<?php echo base_url() ?>/ckeditor5-build-classic/ckeditor.js"></script>
+    <style>
+    .box{
+        color: #000;
+        padding: 5px;
+        display: none;
+        margin-top: 5px;
+    }
+    .red{ background: #fff; }
+    .green{ background: #fff; }
+    .blue{ background: #fff; }
+</style>
+    <script>
+$(document).ready(function(){
+    
+    $('input[type="radio"]').click(function(){
+        var inputValue = $(this).attr("value");
+        var targetBox = $("." + inputValue);
+        $(".box").not(targetBox).hide();
+        $(targetBox).show();
+    });
+});
+</script>
     <script>
     $(document).ready(function(){
  
         // get Edit Product
         $('.btn-edit').on('click',function(){
             // get data from button edit
-            const id = $(this).data('id');
+            const id = $(this).data('user_id');
             const name = $(this).data('name');
             const jenis_kelamin = $(this).data('jenis_kelamin');
             const tempat_lahir = $(this).data('tempat_lahir');
@@ -40,7 +62,7 @@
             const password = $(this).data('password');
             
             // Set data to Form Edit
-            $('.penguji_id').val(id);
+            $('.user_id').val(id);
             $('.jenis_kelamin').val(jenis_kelamin);
             $('.tempat_lahir').val(tempat_lahir);
             $('.tanggal_lahir').val(tanggal_lahir);
@@ -51,7 +73,9 @@
             $('.no_telepon').val(no_telepon);
             $('.email').val(email);
             $('.password').val(password);
-            $('.penguji_name').val(name).trigger('change');
+            // $('.penguji_name').val(name).trigger('change');
+            $('.upload_kta').val(name).trigger('change');
+
             // Call Modal Edit
             $('#editModal').modal('show');
         });
@@ -136,6 +160,28 @@
                 console.error( error );
             } );
     </script>
-    
+   
+<script>
+$.ajax({
+    url: "",
+    type: 'POST',
+    data: form_data,
+    dataType: 'json',
+    success: function(msg) {
+        if(msg.res  == 1)
+        {
+            $(".success").show();
+            $(".failiour").hide();
+        }
+        else
+        {
+            $(".failiour").show();
+            $(".success").hide();
+        }
+
+
+    }
+});
+</script>
     
     

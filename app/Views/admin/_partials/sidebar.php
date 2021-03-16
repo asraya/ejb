@@ -17,18 +17,32 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <?php if ( in_groups('admin')) : ?>
+            <?php if ( in_groups(['admin'])) : ?>
              <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('dashboard') ?>">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Dashboard</span></a>
             </li>
             <?php endif; ?>
-            <li class="nav-item active">
+
+
+            <?php if ( in_groups(['admin'])) : ?>
+
+                <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url('home') ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Upload Data</span></a>
             </li>
+            <?php endif; ?>
+            <?php if ( in_groups(['admin', 'peserta'])) : ?>
+
+<li class="nav-item">
+<a class="nav-link" href="<?php echo base_url('dokumen') ?>">
+    <i class="fas fa-fw fa-tachometer-alt"></i>
+    <span>Upload Data</span></a>
+</li>
+<?php endif; ?>
+            
 
             <!-- Divider -->
             <!-- <hr class="sidebar-divider"> -->
@@ -99,6 +113,38 @@
                         <a class="collapse-item" href="forgot-password.html">Master Pengawas</a>
                         <?php endif; ?>
 
+                        <?php if ( in_groups('admin')) : ?>
+
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseManagement"
+        aria-expanded="true" aria-controls="collapseManagement">
+        <i class="fas fa-fw fa-folder"></i>
+        <span>User Management</span>
+    </a>
+    <div id="collapseManagement" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Data:</h6>
+            <a class="collapse-item" href="<?php echo base_url('role') ?>">Role</a>
+
+            <a class="collapse-item" href="<?php echo base_url('permission') ?>">Permission</a>
+            <?php endif; ?>
+       
+<?php if ( in_groups('admin')) : ?>
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSoal"
+        aria-expanded="true" aria-controls="collapseSoal">
+        <i class="fas fa-fw fa-folder"></i>
+        <span>Soal & Category</span>
+    </a>
+    <div id="collapseSoal" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Data:</h6>
+            <a class="collapse-item" href="<?php echo base_url('bank_soal') ?>">Bank Soal Pilihan</a>
+            <a class="collapse-item" href="<?php echo base_url('bank_soal_wawancara') ?>">Bank Soal List</a>
+
+            <a class="collapse-item" href="<?php echo base_url('categorytest') ?>">Category Test</a>
+            <?php endif; ?>
+
                         <!--<div class="collapse-divider"></div>
                         <h6 class="collapse-header">Other Pages:</h6>
                         <a class="collapse-item" href="404.html">404 Page</a>
@@ -122,61 +168,70 @@
             </li>
 
                Nav Item - Tables -->
+<?php if ( in_groups(['admin', 'pengawas'])) : ?>
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTest"
+        aria-expanded="true" aria-controls="collapseTest">
+        <i class="fas fa-fw fa-folder"></i>
+        <span>Category Test</span>
+    </a>
+    <div id="collapseTest" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Data:</h6>
+            <!-- <a class="collapse-item" href="<php echo base_url('TestWawancara') ?>">Test Praktik MOBIL</a> -->
+
+            <a class="collapse-item" href="<?php echo base_url('testuji') ?>">Test Teori</a>
+
+            <!-- <a class="collapse-item" href="<php echo base_url('testUjiPraktek') ?>">Test Wawancara</a> -->
+
+             <div class="collapse-divider"></div>
+                        <h6 class="collapse-header">Other Pages:</h6>
+                        <a class="collapse-item" href="<?php echo base_url('testUjiPraktek') ?>">Test Wawancara</a>
+                        <a class="collapse-item" href="<?php echo base_url('TestWawancara') ?>">Test Praktik MOBIL</a>
+                        <a class="collapse-item" href="<?php echo base_url('#') ?>">Test Praktik MOTOR</a>
+
+                      
+                    </div>
+                </div>
+            </li> 
+
+            <?php endif; ?>
+         
+            <?php if ( in_groups(['admin'])) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('testuji') ?>">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Test Teori</span></a>
+            </li>
+            <?php endif; ?>
+
            
-            <?php if ( in_groups('admin')) : ?>
-             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('bank_soal') ?>">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Bank Soal</span></a>
-            </li>
 
-            <?php endif; ?>
-            <?php if ( in_groups('admin')) : ?>
-             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('TestWawancara') ?>">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Test wawancara</span></a>
-            </li>
-            <?php endif; ?>
-
-            <?php if ( in_groups('admin')) : ?>
-             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('Hasil_ujian_pilihan') ?>">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Hasil Ujian</span></a>
-            </li>
-            <?php endif; ?>
-
-            <?php if ( in_groups('admin')) : ?>
-             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('testUji') ?>">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Test pilihan ganda</span></a>
-            </li>
-            <?php endif; ?>
-
-            <?php if ( in_groups('admin')) : ?>
-             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('categorytest') ?>">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Category Test</span></a>
-            </li>
-            <?php endif; ?>
             <?php if ( in_groups(['admin', 'penguji', 'pengawas'])) : ?>
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTest2"
+        aria-expanded="true" aria-controls="collapseTest2">
+        <i class="fas fa-fw fa-folder"></i>
+        <span>Data peserta</span>
+    </a>
+    <div id="collapseTest2" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Data:</h6>
+            <a class="collapse-item" href="<?php echo base_url('master_data_peserta_motor') ?>">Test Praktik MOTOR</a>
+            <a class="collapse-item" href="<?php echo base_url('master_data_peserta_mobil') ?>">Test Praktik MOBIL</a>
+            <a class="collapse-item" href="<?php echo base_url('master_data_peserta_wawancara') ?>">Test Wawancara</a>
+            <a class="collapse-item" href="<?php echo base_url('master_data_peserta') ?>">DATA PESERTA ALL</a>
+
+            <?php endif; ?>
+
+            <?php if ( in_groups(['admin', 'pengawas'])) : ?>
              <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('master_data_user') ?>">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>User Management</span></a>                    
+                    <span>Data User</span></a>                    
             </li>
             <?php endif; ?>
- 
-            <?php if ( in_groups('penguji')) : ?>
-             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('hasil') ?>">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Hasil</span></a>
-            </li>
-            <?php endif; ?>
+
 
            
 

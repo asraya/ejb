@@ -18,7 +18,7 @@
 <?= view('Myth\Auth\Views\_message_block') ?>
 
 <!-- Content Row -->
-<form action="<?php echo base_url('dashboard/store') ?>" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+<form action="<?php echo base_url('home/store') ?>" method="post" accept-charset="utf-8" enctype="multipart/form-data">
 
 <div class="row">
 <div class="form-group">

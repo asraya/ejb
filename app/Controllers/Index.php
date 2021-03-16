@@ -1,12 +1,12 @@
 <?php namespace App\Controllers;
-use CodeIgniter\Controller;
 
-class Index extends Controller
+class Index extends BaseController
 {
 
 	public function index()
 
 	{
 	return view('index');
+	
 	}
 }

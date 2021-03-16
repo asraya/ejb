@@ -5,10 +5,134 @@
 	<title>KORLANTAS || Trainning Trainer</title>
 	<meta name="description" content="The small framework with powerful features">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+    <link rel="icon" href="../../../../tk.png">
 
 	<!-- STYLES -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #cb2027;
+  color: white;
+  border-radius: 70px;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #cb2027;
+  color: white;
+  border-radius: 70px;
+
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+</style>
 	<style {csp-style-nonce}>
 		* {
 			transition: background-color 300ms ease, color 300ms ease;
@@ -67,7 +191,9 @@
 		}
 		header .logo {
 			float: left;
-			height: 44px;
+			height: 80px;
+			width: 80px;
+
 			padding: .4rem .5rem;
 		}
 		header .menu-toggle {
@@ -199,48 +325,58 @@
 <header>
 	<div class="menu">
 		<ul>
-			<li class="logo"><a href="https://codeigniter.com" target="_blank"><img height="44" title="Logo"></a>
+		<img class="logo"  src="img/korlantas.png">
+
 			</li>
 			<li class="menu-toggle">
 				<button onclick="toggleMenu();">&#9776;</button>
 			</li>
-			<li class="menu-item hidden"><a href="#">Home</a></li>			
-			<li class="menu-item hidden"><a	href="/login">Login</a></li>
-			<li class="menu-item hidden"><a	href="/dashboard">Dashboard</a></li>
+			<!-- <li class="menu-item hidden"><a href="/dashboard">Home</a></li>	 -->
+<?php if (logged_in()) : ?>
+	<li class="menu-item hidden"><a	href="/dokumen"><?= user()->name; ?></a></li>
 
+<?php else : ?>
+	<li class="menu-item hidden"><a	href="/login">Login</a></li>
+
+<?php endif ; ?>
 		</ul>
 	</div>
 
-	<div class="heroe">
-	A
-	</div>
+	<!-- <div class="heroe">
+	
+	</div> -->
 
 </header>
 
 <!-- CONTENT -->
 
 <section>
-	B
+<center>
+            <img class="img-profile rounded-circle"  src="img/tk.png"  height="350" width="300">
+            </center>	
+</div>
 </section>
 
-<div class="further">
+<!-- <div class="further">
 	<section>
-	C
+	
 	</section>
-</div>
+</div> -->
 
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 
 <footer>
 	<div class="environment">
+	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-instagram"></a>
 
-		<p>Footer</p>
+
 
 	</div>
 
 	<div class="copyrights">
 
-		<p>&copy; <?= date('Y') ?> Asep rayana.</p>
+		<p>&copy; <?= date('Y') ?> Trainer Kita.</p>
 
 	</div>
 

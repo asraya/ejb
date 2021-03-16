@@ -2,7 +2,7 @@
 use CodeIgniter\Controller;
 use App\Models\CategoryTestModel;
 
-class CategoryTest extends Controller
+class Categorytest extends Controller
 {
 	public function index()
     {

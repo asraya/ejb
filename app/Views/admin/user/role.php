@@ -1,4 +1,36 @@
-
+<!-- Modal Edit Penguji-->
+<form action="/master_data_penguji/update" method="post">
+        <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit Penguji</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+             
+                <div class="form-group">
+                    <label>Penguji Name</label>
+                    <input type="text" class="form-control penguji_name" name="penguji_name" placeholder="Penguji Name">
+                </div>
+           
+ 
+            
+             
+            </div>
+            <div class="modal-footer">
+                <input type="hidden" name="penguji_id" class="penguji_id">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </form>
+    <!-- End Modal Edit Penguji-->
+    
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                     <!-- Page Heading -->
@@ -16,7 +48,7 @@
                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                        Master Role</div>
                        <div>
-                       <a href="<?php echo base_url('maintenance'); ?>" class="btn btn-success float-right mb-3">+</a>
+                       <!-- <a href="<php echo base_url('maintenance'); ?>" class="btn btn-success float-right mb-3">+</a> -->
 
                        </div>
                        
@@ -33,15 +65,14 @@
                     <?php $no=0; foreach($list as $data) { $no++ ?>
                     <tr>
                         <td><?php echo $no; ?></td>
-                        <td><?php echo $data['group_id']; ?></td>
-                        <td><?php echo $data['user_id']; ?></td>
+                        <td><?php echo $data['description']; ?></td>
+                        <td><?php echo $data['name']; ?></td>
                       
                         <!-- <td><a class="nav-link text-primary" target="_blank" href="< base_url(); ?>/assets/images/< $data['file']; ?>">< $data['file']; ?></a></td> -->
                         <td>
                             <div class="btn-group">
-                                <a href="<?php echo base_url('maintenances/edit/'.$data['id']); ?>" class="btn btn-primary float-right mb-3"><i class="fas fa-edit"></i></a>
-                                <a href="<?php echo base_url('maintenances/delete/'.$data['id']); ?>" class="btn btn-danger float-right mb-3" onclick="return confirm('Apakah Anda yakin ingin menghapus guide <?php echo $data['id']; ?> ini?')"><i class="fas fa-trash-alt"></i></a>
-                                <a href="<?php echo base_url('maintenances/create_active/'.$data['id']); ?>" class="btn btn-primary float-right mb-3"><i class="fas fa-edit">active</i></a>
+                                <a href="<?php echo base_url('role/edit/'.$data['id']); ?>" class="btn btn-primary float-right mb-3"><i class="fas fa-edit"></i></a>
+                               
                             </div>
                         </td>
                     </tr>

@@ -15,3 +15,22 @@
             </div>
         </div>
     </div>
+
+    <div id="submitTestModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Konfirmasi !!</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Anda hanya dapat kirim jawaban 1 kali.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+                    <button type="submit" id="submit" class="btn btn-secondary"><i class="fa fa-save"></i> Submit</button>
+
+                </div>
+            </div>
+        </div>
+    </div>

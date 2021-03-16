@@ -1,0 +1,178 @@
+CRITICAL - 2021-03-15 02:25:35 --> Invalid file: list-student.php
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list-student.ph...')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('list-student', Array, true)
+#2 C:\xampp\htdocs\korlantas\app\Controllers\StudentController.php(17): view('list-student', Array)
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudentController->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-15 03:18:03 --> include_once(C:\xampp\htdocs\korlantas\app\ThirdParty/PHPExcel/PHPExcel.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(161): include_once()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->CodeIgniter\Autoloader\{closure}('PHPExcel')
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Master_data_peserta_motor.php(72): spl_autoload_call('PHPExcel')
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-15 03:21:43 --> Class 'PHPExcel\PHPExcel' not found
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-15 03:22:00 --> include_once(C:\xampp\htdocs\korlantas\app\ThirdParty/PHPExcel/PHPExcel.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(161): include_once()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->CodeIgniter\Autoloader\{closure}('PHPExcel')
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Master_data_peserta_motor.php(73): spl_autoload_call('PHPExcel')
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-15 03:22:47 --> include_once(C:\xampp\htdocs\korlantas\app\ThirdParty/PHPExcel/PHPExcel.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(161): include_once()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->CodeIgniter\Autoloader\{closure}('PHPExcel')
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Master_data_peserta_motor.php(73): spl_autoload_call('PHPExcel')
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-15 03:23:16 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\korlantas\app\ThirdParty\PHPExcel/PHPExcel/Autoloader.php' (include_path='\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-15 03:23:38 --> include_once(C:\xampp\htdocs\korlantas\app\ThirdParty\PHPExcel\PHPExcel.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(161): include_once()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->CodeIgniter\Autoloader\{closure}('PHPExcel')
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Master_data_peserta_motor.php(73): spl_autoload_call('PHPExcel')
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-15 03:28:41 --> Class 'PHPExcel' not found
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-15 03:29:25 --> Class 'PHPExcel\PHPExcel' not found
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-15 03:30:13 --> Class 'PHPExcel\PHPExcel' not found
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-15 03:30:20 --> Class 'PHPExcel' not found
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-15 03:31:39 --> Class 'App\PHPExcel' not found
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-15 03:31:49 --> Class 'App\ThirdParty\PHPExcel' not found
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-15 03:31:57 --> Class 'App\ThirdParty\ThirdParty\PHPExcel' not found
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-15 03:40:42 --> Call to undefined method App\Controllers\Master_data_peserta_motor::table()
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-15 03:40:53 --> join(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'join(): Invalid...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Master_data_peserta_motor.php(86): join('users', 'users.nrp=h_uji...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-15 03:42:54 --> Class 'PHPExcel_Writer_Excel2019' not found
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Master_data_peserta_motor.php(100): PHPExcel_IOFactory::createWriter(Object(PHPExcel), 'Excel2019')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->export()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-15 05:27:16 --> Undefined index: mobile
+#0 C:\xampp\htdocs\korlantas\app\Views\list-student.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('list-student', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Controllers\StudentController.php(17): view('list-student', Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudentController->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-15 05:27:34 --> Undefined index: branch
+#0 C:\xampp\htdocs\korlantas\app\Views\list-student.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('list-student', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Controllers\StudentController.php(17): view('list-student', Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudentController->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-15 05:41:16 --> Undefined index: mobile
+#0 C:\xampp\htdocs\korlantas\app\Views\list-student.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('list-student', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Controllers\StudentController.php(17): view('list-student', Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudentController->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-15 06:09:03 --> Argument 1 passed to view() must be of the type string, array given, called in C:\xampp\htdocs\korlantas\app\Controllers\Master_data_peserta_motor.php on line 22
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Master_data_peserta_motor.php(22): view(Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master_data_peserta_motor->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master_data_peserta_motor))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

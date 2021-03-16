@@ -57,8 +57,7 @@
 
 								<form action="<?php echo base_url('/store') ?>" method="post" accept-charset="utf-8" enctype="multipart/form-data">
 
-<div class="row">			
-	
+<div class="row">	
 	<div class="col-md-6">
 		<label>name</label>
 		<div class="col-sm-9">
@@ -68,7 +67,7 @@
 	<div class="col-md-6">
 		<label>Pangkat</label>
 		<div class="col-sm-9">
-		<input type="text" class="form-control" name="user_id" value="<?= user()->pangkat; ?>" readonly>
+		<input type="text" class="form-control" name="user_id" value=<?php echo $getprof['pangkat']; ?> readonly>
 		  </div>	
 	</div>
 	<div class="col-md-6">
@@ -105,3 +104,39 @@
 			</div>
 			</div>
 			</div>
+			
+			<div class="card-body">
+
+	<?php foreach ($getprof as $eren) { ?>
+		<div class="row">
+
+			<div class="col-md-6" >
+			<div class="row">
+				<label class="col-md-12">Kta</label>
+				<img style="height: 150px; width: 300px"  src="<?php echo base_url('../assets/images/'.$eren['upload_kta']) ?>" class="img-fluid img-thumbnail" >
+			</div>
+			</div>
+			<div class="col-md-6" >
+			<div class="row">
+			<label class="col-md-12">Ktp</label>
+				<img style="height: 150px; width: 300px"  src="<?php echo base_url('assets/images/'.$eren['upload_ktp']) ?>" class="img-fluid img-thumbnail"  >
+			</div>
+			</div>
+			<div class="col-md-6">
+			<div class="row">
+			<label class="col-md-12">Sim</label>
+				<img style="height: 150px; width: 300px" src="<?php echo base_url('assets/images/'.$eren['upload_sim']) ?>" class="img-fluid img-thumbnail" >
+			</div>
+			</div>
+			<div class="col-md-6">
+			<div class="row">
+			<label class="col-md-12">Foto</label>
+				<img style="height: 300px; width: 300px"  src="<?php echo base_url('assets/images/'.$eren['upload_foto']) ?>" class="img-fluid img-thumbnail">
+			</div>
+		</div>
+		
+	<?php } ?>
+</div>
+</div>
+</div>
+</div>

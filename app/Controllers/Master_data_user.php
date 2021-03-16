@@ -3,6 +3,7 @@ use CodeIgniter\Controller;
 use Myth\Auth\Models\UserModel;
 use App\Models\UserRoleModel;
 use App\Models\UserPermisionModel;
+use App\Models\BankWawancaraModel;
 
 class Master_data_user extends controller
 {
@@ -13,8 +14,8 @@ class Master_data_user extends controller
         $data = array(	'title'		=> 'Data',
                         'list'	=> $list,
 						'content'	=> 'admin/master data/index');
-		return view('admin/_partials/wrapper',$data);   
-        
+		return view('admin/_partials/wrapper',$data);        
     }
+
 	
 }

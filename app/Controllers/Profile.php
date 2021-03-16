@@ -20,7 +20,11 @@ class Profile extends Controller
 	public function index()
 	{ 
 		$session = session();	
+		$model = new ModUsers();
+		$id_user = user()->id;
+		$get = $model->listing($id_user);
         $data = array(	'title'		=> 'Data',
+						'getprof' => $get,
 						'user'		=> $session,
 						'content'	=> 'admin/profile/index');
 		return view('admin/_partials/wrapper',$data);

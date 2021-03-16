@@ -9,7 +9,7 @@ class Bank_soal extends Controller
 	public function index()
     {
         $model = new BankModel();
-		$bank = $model->getBank();
+		$bank = $model->getBankInput();
         $data = array(	'title'		=> 'Data',
                         'bank'		=> $bank,
 						'content'	=> 'admin/bank soal/index');
@@ -20,7 +20,7 @@ class Bank_soal extends Controller
         $session = session();
         $model = new BankModel();
         $model2 = new CategoryTestModel();
-		$bank = $model->getBank();
+		$bank = $model->getBankInput();
         $catest	= $model2->listing();
 
         $data = array(	'title'	 => 'Data Soal',
@@ -86,14 +86,14 @@ class Bank_soal extends Controller
         $session = session();
         $model = new BankModel();
         $model2 = new CategoryTestModel();
-		$guideline = $model->getBank($id);
+		$banksoal = $model->getBank($id);
         $catest	= $model2->listing();
-        $guideline = array(	'title'		=> 'Data Berita',
-                        'guideline'	=> $guideline,
+        $data = array(	'title'		=> 'Data Berita',
+                        'bsoal'	=> $banksoal,
                         'user' => $session,
                         'catest' => $catest,
 						'content'	=> 'admin/bank soal/edit');
-		return view('admin/_partials/wrapper',$guideline);
+		return view('admin/_partials/wrapper',$data);
     }
 
     

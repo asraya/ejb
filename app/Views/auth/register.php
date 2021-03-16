@@ -61,7 +61,6 @@
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
                                         <label for="tempat_lahir"><?=lang('Auth.tempat_lahir')?>:</label>
-
                                             <input type="text" name="tempat_lahir" class="form-control <?php if(session('errors.tempat_lahir')) : ?>is-invalid<?php endif ?>" 
                                           placeholder="Kota/Kab" value="<?= old('tempat_lahir') ?>" autocomplete="off">
                                         </div>
@@ -77,10 +76,10 @@
                                     <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <label>Pangkat</label>
-                                        <select class="form-control" name="pangkat" id="pangkat" required>
+                                        <select class="form-control"  name="pangkat_id" id="pangkat" required>
                                             <option  value="">No Selected</option>
                                             <?php foreach($pangkat as $row):?>
-                                            <option value="<?php echo $row['id'] ?>"><?php echo $row['name'] ?></option>
+                                            <option value="<?php echo $row['id'] ?>"><?php echo $row['pangkat'] ?></option>
                                             <?php endforeach;?>
                                         </select>
                                     </div> 
@@ -94,19 +93,19 @@
 
                                     <div class="form-group">
                                         <label>Asal polda</label>
-                                        <select class="form-control" name="asal_polda" id="asal_polda" required>
+                                        <select class="form-control" name="polda_id" id="asal_polda" required>
                                             <option value="">No Selected</option>
                                             <?php foreach($asal_polda as $row):?>
-                                            <option  value="<?php echo $row['id'] ?>"><?php echo $row['name'] ?></option>
+                                            <option  value="<?php echo $row['id'] ?>"><?php echo $row['asal_polda'] ?></option>
                                             <?php endforeach;?>
                                         </select>
-                                    </div>                                  
+                                    </div>                                                                                            
 
-                                    <div class="form-group">
+                                    <div class="form-group <?php if(session('errors.sim')) : ?>is-invalid<?php endif ?>">
                                     <label for="sim"><?=lang('Auth.sim')?>:</label>
-                                    <input type="radio" id="motor" name="sim" value="motor">
+                                    <input type="radio" id="motor" name="category_id" value="1">
                                         <label for="motor">Motor</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="radio" id="mobil" name="sim" value="mobil">
+                                    <input type="radio" id="mobil" name="category_id" value="2">
                                         <label for="mobil">Mobil</label>                                       
                                     </div>
 

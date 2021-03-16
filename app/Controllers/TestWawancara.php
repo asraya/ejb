@@ -11,12 +11,12 @@ class TestWawancara extends Controller
 	{ 
 		$session = session();
         $model = new BankWawancaraModel();
-		$bank = $model->getBank();
+		$bank = $model->getBankWawancara();
         $data = array(	'title'		=> 'Data',
 						'user'		=> $session,
  						'bank'		=> $bank,
 						'content'	=> 'admin/wawancara');
-		return view('admin/_partials/wrappertest',$data);
+		return view('admin/_partials/wrapper',$data);
         
     }
 	public function insert(){
