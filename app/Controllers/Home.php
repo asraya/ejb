@@ -1,9 +1,10 @@
 <?php namespace App\Controllers;
 use App\Models\UploadModel;
+use CodeIgniter\Controller;
 
 
 
-class Home extends BaseController
+class Home extends Controller
 {
 	// Main page
 	

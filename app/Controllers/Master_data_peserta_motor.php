@@ -1,12 +1,10 @@
 <?php namespace App\Controllers;
 use CodeIgniter\Controller;
 use Myth\Auth\Models\UserModel;
-
 use App\Models\UserRoleModel;
 use App\Models\UserPermisionModel;
 use App\Models\HasilUjianModel;
 use App\Models\BankWawancaraModel;
-
 
 class Master_data_peserta_motor extends controller
 {
@@ -22,20 +20,25 @@ public function index()
 			return view('admin/_partials/wrappermotor',$data); 
 	}
 
-	public function edit($user_id)
+	public function edit($id_ujian)
 	{
 		$model = new HasilUjianModel();
-		$listjawaban = $model->listing($user_id);
+		$listjawaban = $model->listing($id_ujian);
 			$data = array(	'title'		=> 'Data',
 							'list_j'	=> $listjawaban,
 							'content'	=> 'admin/dt pst/v_jawaban');
 							return view('admin/_partials/wrapper',$data);		
-
 	}
-
-
-
-		public function p2($id)
+	public function editpraktik($id_ujian)
+	{
+		$model = new HasilUjianModel();
+		$listjawaban = $model->listingpraktikmotor($id_ujian);
+			$data = array(	'title'		=> 'Data',
+							'list_j'	=> $listjawaban,
+							'content'	=> 'admin/dt pst/v_jawaban');
+							return view('admin/_partials/wrapper',$data);		
+	}
+	public function p2($id)
     {  
 			$model = new UserModel();
 			$bank = $model->getBankPraktek_Motor($id);
@@ -45,7 +48,7 @@ public function index()
 			return view('admin/_partials/wrappertest',$data);
 			
 		}
-		public function insert(){
+	public function insert(){
 		// dd($this->request->getPost('1'));
 
 		$model = new HasilUjianModel();
@@ -67,5 +70,17 @@ public function index()
         return redirect()->to(base_url('master_data_peserta_motor'))->with('berhasil', 'Data Berhasil di Simpan');
     
     }
+	public function inputnilai(){
+		{
+        $model = new HasilUjianModel();
+        $id = $this->request->getPost('id_ujian');
+        $data = array(
+			'nilai_uji_teori'  => $this->request->getPost('nilai_uji_teori'),           
+        );
+        $model->inputnilai($data, $id);
+        return redirect()->to(base_url('master_data_peserta_motor'))->with('berhasil', 'Data Berhasil di Simpan');
+    }
+
+	}
     
 }

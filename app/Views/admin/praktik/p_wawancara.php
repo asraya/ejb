@@ -29,7 +29,7 @@
                     <th width="10">Cukup</th>
                     <th width="10">Baik</th>
 
-                    <!-- <th width="15">Skor</th> -->
+                    <th width="15">Skor</th>
 
                     <!-- <th>file</th> -->
                 </thead>
@@ -48,11 +48,15 @@
                                         
                         <td><center><input type="radio" id="<?php echo $data['id_soal']; ?>" name="list_jawaban_wawancara[<?php echo $data['id_soal'];?>]" value="baik"></center></td>
                        <p style="display: none;"><input type="radio" checked id="<?php echo $data['id_soal']; ?>" name="list_jawaban_wawancara[<?php echo $data['id_soal'];?>]" value="''">
+                      
 
 
                        <input type="text" class="form-control" name="ujian_id" value="<?php echo $data['category_id'] ?>" readonly>
                        <input type="text" id="user_id" name="user_id" value="<?php echo $data['nrp']; ?>" class="form-control" placeholder="Name" readonly>
 
+                       <td><div class="kurang box">0</div>
+                      <div class="cukup box">1</div>
+                       <div class="baik box">2</div></td>
 
                                          <!-- <td><div  id="box1" name="txt1" class="0 box">0</div>
                                             <div  id="box2" name="txt2" class="1 box">1</div>

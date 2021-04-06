@@ -32,25 +32,6 @@ class Dokumen extends BaseController
 		return view('admin/_partials/wrapper',$data);
         
     }
-	// public function index()
-    
-    // {
-    //     $model      = new Penguji_model();
-    //     $mk2		= new PangkatModels();
-    //     $mk 		= new CategoryModel();
-    //     $pangkat	= $mk2->listing_pangkat();
-    //     $asal_polda	= $mk->listing();
-    //     $penguji  = $model->getPenguji()->getResult();
-    //     $data = array(	'title'		=> 'Data',
-    //                     'pangkat'	=> $pangkat,
-    //                     'asal_polda'=> $asal_polda,
-    //                     'penguji'	=> $penguji,
-	// 					'content'	=> 'penguji_view');
-	// 	return view('admin/_partials/wrapper',$data);        
-    // }
-
-
-
 	
 public function storeKta()
 
@@ -69,23 +50,13 @@ if ($validation == FALSE) {
 	return $this->index();
 } else {
 	$upload = $this->request->getFile('file_upload');
-	// $upload1 = $this->request->getFile('file_upload1');
-	// $upload2 = $this->request->getFile('file_upload2');
-	// $upload3 = $this->request->getFile('file_upload3');
-	// $upload4 = $this->request->getFile('file_upload4');
-	// $upload5 = $this->request->getFile('file_upload5');
 
 	$upload->move(WRITEPATH . '../../public_html/assets/images/kta/');
 
 $data = array(
-	// 'file' => $upload->getName()
 	'user_id'  => $this->request->getPost('user_id'),
 	'upload_kta' => $upload->getName(),
-	// 'upload_ktp' => $upload1->getName(),
-	// 'upload_sim' => $upload2->getName(),
-	// 'upload_foto' => $upload3->getName(),
-	// 'upload_cv' => $upload4->getName(),
-	// 'upload_video' => $upload5->getName()
+
 );
 
 $model->insert_dataskta($data);
@@ -110,23 +81,13 @@ public function storeKtp()
 		return $this->index();
 	} else {
 		$upload = $this->request->getFile('file_upload');
-		// $upload1 = $this->request->getFile('file_upload1');
-		// $upload2 = $this->request->getFile('file_upload2');
-		// $upload3 = $this->request->getFile('file_upload3');
-		// $upload4 = $this->request->getFile('file_upload4');
-		// $upload5 = $this->request->getFile('file_upload5');
 
 		$upload->move(WRITEPATH .  '../../public_html/assets/images/ktp/');
 
 	$data = array(
-		// 'file' => $upload->getName()
 		'user_id'  => $this->request->getPost('user_id'),
 		'upload_ktp' => $upload->getName(),
-		// 'upload_ktp' => $upload1->getName(),
-		// 'upload_sim' => $upload2->getName(),
-		// 'upload_foto' => $upload3->getName(),
-		// 'upload_cv' => $upload4->getName(),
-		// 'upload_video' => $upload5->getName()
+
 	);
 	
 	$model->insert_dataktp($data);
@@ -150,23 +111,13 @@ public function storeSim()
 		return $this->index();
 	} else {
 		$upload = $this->request->getFile('file_upload');
-		// $upload1 = $this->request->getFile('file_upload1');
-		// $upload2 = $this->request->getFile('file_upload2');
-		// $upload3 = $this->request->getFile('file_upload3');
-		// $upload4 = $this->request->getFile('file_upload4');
-		// $upload5 = $this->request->getFile('file_upload5');
-
+	
 		$upload->move(WRITEPATH . '../../public_html/assets/images/sim/');
 
 	$data = array(
-		// 'file' => $upload->getName()
 		'user_id'  => $this->request->getPost('user_id'),
 		'upload_sim' => $upload->getName(),
-		// 'upload_ktp' => $upload1->getName(),
-		// 'upload_sim' => $upload2->getName(),
-		// 'upload_foto' => $upload3->getName(),
-		// 'upload_cv' => $upload4->getName(),
-		// 'upload_video' => $upload5->getName()
+	
 	);
 	
 	$model->insert_datasim($data);
@@ -190,23 +141,13 @@ public function storeFoto()
 		return $this->index();
 	} else {
 		$upload = $this->request->getFile('file_upload');
-		// $upload1 = $this->request->getFile('file_upload1');
-		// $upload2 = $this->request->getFile('file_upload2');
-		// $upload3 = $this->request->getFile('file_upload3');
-		// $upload4 = $this->request->getFile('file_upload4');
-		// $upload5 = $this->request->getFile('file_upload5');
 
 		$upload->move(WRITEPATH . '../../public_html/assets/images/foto/');
 
 	$data = array(
-		// 'file' => $upload->getName()
 		'user_id'  => $this->request->getPost('user_id'),
 		'upload_foto' => $upload->getName(),
-		// 'upload_ktp' => $upload1->getName(),
-		// 'upload_sim' => $upload2->getName(),
-		// 'upload_foto' => $upload3->getName(),
-		// 'upload_cv' => $upload4->getName(),
-		// 'upload_video' => $upload5->getName()
+
 	);
 	
 	$model->insert_datafoto($data);
@@ -230,23 +171,13 @@ public function storeCv()
 		return $this->index();
 	} else {
 		$upload = $this->request->getFile('file_upload');
-		// $upload1 = $this->request->getFile('file_upload1');
-		// $upload2 = $this->request->getFile('file_upload2');
-		// $upload3 = $this->request->getFile('file_upload3');
-		// $upload4 = $this->request->getFile('file_upload4');
-		// $upload5 = $this->request->getFile('file_upload5');
 
 		$upload->move(WRITEPATH . '../../public_html/assets/images/cv/');
 
 	$data = array(
-		// 'file' => $upload->getName()
 		'user_id'  => $this->request->getPost('user_id'),
 		'upload_cv' => $upload->getName(),
-		// 'upload_ktp' => $upload1->getName(),
-		// 'upload_sim' => $upload2->getName(),
-		// 'upload_foto' => $upload3->getName(),
-		// 'upload_cv' => $upload4->getName(),
-		// 'upload_video' => $upload5->getName()
+
 	);
 	
 	$model->insert_datacv($data);
@@ -270,23 +201,13 @@ public function storeVideo()
 		return $this->index();
 	} else {
 		$upload = $this->request->getFile('file_upload');
-		// $upload1 = $this->request->getFile('file_upload1');
-		// $upload2 = $this->request->getFile('file_upload2');
-		// $upload3 = $this->request->getFile('file_upload3');
-		// $upload4 = $this->request->getFile('file_upload4');
-		// $upload5 = $this->request->getFile('file_upload5');
 
 		$upload->move(WRITEPATH . '../../public_html/assets/images/video/');
 
 	$data = array(
-		// 'file' => $upload->getName()
 		'user_id'  => $this->request->getPost('user_id'),
 		'upload_video' => $upload->getName(),
-		// 'upload_ktp' => $upload1->getName(),
-		// 'upload_sim' => $upload2->getName(),
-		// 'upload_foto' => $upload3->getName(),
-		// 'upload_cv' => $upload4->getName(),
-		// 'upload_video' => $upload5->getName()
+
 	);
 	
 	$model->insert_datavid($data);

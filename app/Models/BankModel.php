@@ -23,25 +23,29 @@ class BankModel extends Model
                         ->getRowArray();
         }   
     }
-    public function getBank($id)
+    // public function getBank($id)
+    // {
+    //      return $this->table('tb_soal_teori')
+    //      ->join('users','users.id=tb_soal_teori.id_category', 'left')
+    //      ->join('category_test','category_test.id_category_test=tb_soal_teori.id_category')
+	//  ->where('tb_soal_teori.id_category', $id)
+    //     // ->orderBy("RAND ()")
+    //      ->get()
+	// 	 ->getResultArray();
+    // }
+    public function getBank($id, $polda_id)
     {
          return $this->table('tb_soal_teori')
-         ->join('users','users.id=tb_soal_teori.category_id')
-         ->join('category_test','category_test.id_category_test=tb_soal_teori.category_id')
-		 ->where('tb_soal_teori.category_id', $id)
+         ->join('users','users.category_id=tb_soal_teori.id_category', 'left')
+         ->join('m_ujian','m_ujian.id_polda_test=users.polda_id', 'left')
+         ->join('category_test','category_test.id_category_test=tb_soal_teori.id_category')
+         ->where('users.id', $id)
+         ->where('m_ujian.id_polda_test', $polda_id)
          ->orderBy("RAND ()")
          ->get()
 		 ->getResultArray();
     }
-    // public function getBank($id)
-    // {
-    //      return $this->table('tb_soal_teori')
-    //      ->join('category_test','category_test.id_category_test=tb_soal_teori.id_soal', 'left')
-    //      ->join('users','users.category_id=category_test.category_id')
-	// 	 ->where('users.category_id', $id)
-    //      ->get()
-	// 	 ->getResultArray();
-    // }
+    
    
     public function saveSoal($data)
     {

@@ -44,8 +44,8 @@ $routes->group('', ['filter' => 'login'], function($routes){
 	$routes->get('categorytest/index', 'Categorytest::index', ['filter' => 'role:admin']);
 
 	// Route test pilihan ganda
-	$routes->get('testuji', 'Testuji::index', ['filter' => 'role:admin']);
-	$routes->get('testuji/index', 'Testuji::index', ['filter' => 'role:admin']);
+	$routes->get('testuji', 'Testuji::index', ['filter' => 'role:admin,peserta']);
+	$routes->get('testuji/index', 'Testuji::index', ['filter' => 'role:admin,peserta']);
 
 	// Route role&permission
 	$routes->get('role', 'Role::index', ['filter' => 'role:admin']);

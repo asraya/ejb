@@ -30,6 +30,7 @@
                     <?php $no=1; foreach($bank as $data) { ?>
 	<div class="col-md-10 berita">
     <input type="hidden" class="form-control" name="ujian_id" value="<?php echo $data['category_id'] ?>" readonly>
+
     <br>
     
     <!-- <td class="text-center"><img src="<php echo base_url('assets/images/'.$data['file']) ?>" width="120"></td> -->

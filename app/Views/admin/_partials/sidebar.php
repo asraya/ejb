@@ -26,20 +26,28 @@
             <?php endif; ?>
 
 
-            <?php if ( in_groups(['admin'])) : ?>
+            <!-- <php if ( in_groups(['admin'])) : ?>
 
                 <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url('home') ?>">
+            <a class="nav-link" href="<php echo base_url('home') ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Upload Data</span></a>
             </li>
-            <?php endif; ?>
+            <php endif; ?> -->
             <?php if ( in_groups(['admin', 'peserta'])) : ?>
 
 <li class="nav-item">
 <a class="nav-link" href="<?php echo base_url('dokumen') ?>">
     <i class="fas fa-fw fa-tachometer-alt"></i>
     <span>Upload Data</span></a>
+</li>
+<?php endif; ?>
+<?php if ( in_groups(['admin'])) : ?>
+
+<li class="nav-item">
+<a class="nav-link" href="<?php echo base_url('ujian') ?>">
+    <i class="fas fa-fw fa-tachometer-alt"></i>
+    <span>List ujian</span></a>
 </li>
 <?php endif; ?>
             

@@ -1,0 +1,1184 @@
+CRITICAL - 2021-03-17 00:03:11 --> Undefined index: id_category
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(24): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 00:05:09 --> Undefined index: id_polda_test
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(24): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 00:05:19 --> Undefined index: id_polda_test
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(24): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 00:20:35 --> Undefined variable: id_user
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 00:30:04 --> Undefined variable: id
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 00:30:25 --> Undefined variable: id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): App\Models\BankModel->getBank('1', '15')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 00:31:44 --> Undefined variable: id_user
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 00:31:54 --> Undefined variable: id_user
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 00:32:04 --> Undefined variable: id_user
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 00:32:49 --> Undefined variable: category_id
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 00:34:50 --> Undefined variable: category_id
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 00:35:08 --> Undefined variable: category_id
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 00:40:32 --> Undefined variable: polda_id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): App\Models\BankModel->getBank('1', '51')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 00:41:30 --> Undefined variable: polda_id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): App\Models\BankModel->getBank('1', '51')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 00:41:38 --> Undefined variable: polda_id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(19): App\Models\BankModel->getBank('1', '51')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 01:19:42 --> Undefined variable: listuji
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\master_ujian.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/master_uj...', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/master_uj...')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrapper.php(10): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Ujian.php(16): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ujian->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ujian))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 02:01:53 --> null is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('null')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('id_polda_test', 'id_polda_test', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(22): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:02:09 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('id_polda_test', 'id_polda_test', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(22): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:02:33 --> Undefined variable: polda_id
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:02:40 --> 51 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('51')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('id_polda_test', 'id_polda_test', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(22): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:02:50 --> 51 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('51')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('id_polda_test', 'id_polda_test', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(22): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:04:22 --> Undefined variable: rules
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:04:37 --> Undefined variable: rules
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:04:58 --> 51 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('51')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('51', '51', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:06:12 --> 51 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('51')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('51', '51', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:08:27 --> Undefined property: App\Controllers\Testuji::$config
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:10:45 --> 51 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('51')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('51', '51', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:11:39 --> Undefined variable: polda_id
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:11:54 --> 51 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('51')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('51', '51', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:12:03 --> 51 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('51')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('51', '51', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:12:08 --> 51 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('51')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('51', '51', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:12:23 --> 11 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:12:56 --> 11 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(24): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:13:19 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(25): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:13:41 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(25): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:13:51 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(25): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:14:12 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:14:22 --> 11 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:14:31 --> 11 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:15:10 --> 11 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:15:40 --> 11 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:15:48 --> 11 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:16:14 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:18:31 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:19:04 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:19:13 --> 11 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:20:14 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('', '', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:20:33 --> 11 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:20:50 --> 2 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('2')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('11', '11', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:21:07 --> 2 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('2')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('2', '2', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:23:47 --> Illegal offset type
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:24:07 --> Undefined variable: rules
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:24:14 --> Illegal offset type
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:24:40 --> Illegal offset type
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:24:50 --> 2 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('2')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('2', '2', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:27:11 --> 2 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('2')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('2', '2', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:27:25 --> 2 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('2')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('2', '2', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:27:38 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('2', '2', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:28:06 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('2', '2', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:28:19 -->  is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('2', '2', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:28:23 --> 1 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('1')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('2', '2', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:28:34 --> 1111 is not a valid rule.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('1111')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('2', '2', NULL, Array, Array)
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 02:34:01 --> Call to undefined function validation_errors()
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#2 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#6 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(43): view('admin/_partials...', Array)
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-03-17 02:41:57 --> Undefined property: App\Controllers\Testuji::$form_validation
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 02:42:19 --> register is not a validation rules group.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('register')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('register')
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(36): CodeIgniter\Validation\Validation->run(Array, 'register')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 02:42:50 --> register is not a validation rules group.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('register')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('register')
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(36): CodeIgniter\Validation\Validation->run(Array, 'register')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 02:45:52 --> index is not a validation rules group.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('index')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('index')
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(36): CodeIgniter\Validation\Validation->run(Array, 'index')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 02:46:22 --> index is not a validation rules group.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('index')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('index')
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(36): CodeIgniter\Validation\Validation->run(Array, 'index')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 02:46:30 --> index is not a validation rules group.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('index')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('index')
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(36): CodeIgniter\Validation\Validation->run(Array, 'index')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 02:46:52 --> testuji is not a validation rules group.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('testuji')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('testuji')
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(36): CodeIgniter\Validation\Validation->run(Array, 'testuji')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 02:50:11 --> index is not a validation rules group.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('index')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('index')
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(36): CodeIgniter\Validation\Validation->run(Array, 'index')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 02:55:47 --> index is not a validation rules group.
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('index')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('index')
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(36): CodeIgniter\Validation\Validation->run(Array, 'index')
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 03:00:26 --> Invalid file: Signup.php
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Signup.php')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Signup', Array, true)
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(39): view('Signup', Array)
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 03:00:45 --> Invalid file: testuji.php
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testuji.php')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('testuji', Array, true)
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(39): view('testuji', Array)
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 03:18:13 --> Invalid file: testuji.php
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testuji.php')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('testuji', Array, true)
+#2 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(39): view('testuji', Array)
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-17 03:18:28 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 03:30:02 --> Undefined variable: id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(50): App\Models\BankModel->getBank('11')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 03:30:22 --> Undefined variable: id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(52): App\Models\BankModel->getBank('11', '1')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 03:30:47 --> Undefined variable: id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(52): App\Models\BankModel->getBank('11', '1')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 03:35:34 --> Undefined variable: polda_id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(51): App\Models\BankModel->getBank('2', '11')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 03:36:19 --> Undefined index: id_polda_test
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(58): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 04:01:45 --> Undefined variable: category_id
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 04:09:03 --> Too few arguments to function App\Models\BankModel::getBank(), 1 passed in C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php on line 50 and exactly 2 expected
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(50): App\Models\BankModel->getBank('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 04:39:03 --> Too few arguments to function App\Models\BankModel::getBank(), 1 passed in C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php on line 64 and exactly 2 expected
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(64): App\Models\BankModel->getBank('1')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 04:39:25 --> Undefined index: id_polda_test
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(71): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 04:39:59 --> Undefined index: id_polda_test
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(71): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 04:40:13 --> Undefined index: id_polda_test
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(71): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 04:40:15 --> Undefined index: id_polda_test
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(71): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 04:40:35 --> Undefined index: id_polda_test
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(71): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-03-17 05:15:53 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:22:34 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:22:36 --> Too few arguments to function App\Models\BankModel::getBank(), 1 passed in C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php on line 64 and exactly 2 expected
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(64): App\Models\BankModel->getBank('2')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:22:43 --> Too few arguments to function App\Models\BankModel::getBank(), 1 passed in C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php on line 64 and exactly 2 expected
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(64): App\Models\BankModel->getBank('2')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:34:14 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:35:05 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:35:12 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:35:55 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:36:57 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:37:10 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:37:39 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:37:48 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:38:01 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:38:44 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:38:52 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:40:44 --> Undefined offset: 2
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:41:58 --> Undefined offset: 1
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:43:26 --> Undefined offset: 1
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:43:33 --> Undefined offset: 1
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:45:16 --> Undefined offset: 1
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 05:47:08 --> Undefined offset: 1
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->insert()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 06:55:34 --> Too few arguments to function App\Models\BankModel::getBank(), 1 passed in C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php on line 34 and exactly 2 expected
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(34): App\Models\BankModel->getBank('2')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 22:48:10 --> Undefined variable: id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(17): App\Models\BankModel->getBank('2', '12')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 22:59:06 --> Undefined variable: category_id
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(17): App\Models\BankModel->getBank('1', '11')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 23:20:06 --> Call to undefined method App\Models\BankModel::innerjoin
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(39): CodeIgniter\Model->__call('innerjoin', Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(17): App\Models\BankModel->getBank('2', '11')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 23:20:15 --> Call to undefined method App\Models\BankModel::leftjoin
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(39): CodeIgniter\Model->__call('leftjoin', Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(17): App\Models\BankModel->getBank('2', '11')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 23:20:24 --> Call to undefined method App\Models\BankModel::LeftJoin
+#0 C:\xampp\htdocs\korlantas\app\Models\BankModel.php(39): CodeIgniter\Model->__call('LeftJoin', Array)
+#1 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(17): App\Models\BankModel->getBank('2', '11')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#4 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 23:26:28 --> Too few arguments to function App\Models\BankModel::getBank(), 0 passed in C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php on line 16 and exactly 1 expected
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(16): App\Models\BankModel->getBank()
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 23:42:49 --> Too few arguments to function App\Models\BankModel::getBank(), 1 passed in C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php on line 16 and exactly 2 expected
+#0 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(16): App\Models\BankModel->getBank('11')
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#3 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 23:56:41 --> Illegal string offset 'id_category'
+#0 C:\xampp\htdocs\korlantas\app\Views\admin\testuji.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/testuji', Array, true)
+#3 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\content.php(5): view('admin/testuji')
+#4 C:\xampp\htdocs\korlantas\app\Views\admin\_partials\wrappertestuji.php(9): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#7 C:\xampp\htdocs\korlantas\app\Controllers\Testuji.php(24): view('admin/_partials...', Array)
+#8 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Testuji->index()
+#9 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testuji))
+#10 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\korlantas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\korlantas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}

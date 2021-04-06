@@ -15,6 +15,7 @@
 
                     </div>
                     <div class="row">
+                    
 <!-- Earnings (Monthly) Card Example -->
 <div class="col-xl-12 col-md-6 mb-4">
 <div class="card border-left-primary shadow h-100 py-2">
@@ -59,11 +60,14 @@
                         <td>
                             <div class="btn-group">
                             <?php if ( in_groups(['admin', 'pengawas'])) : ?>
-                                <a href="<?php echo base_url('master_data_peserta_motor/edit/'.$data['nrp']); ?>" class="btn btn-danger float-right mb-3"><i class="fas fa-eye"></i></a>
+                                <a href="<?php echo base_url('master_data_peserta_motor/edit/'.$data['id_ujian']); ?>" class="btn btn-danger float-right mb-3"><i class="fas fa-eye"></i></a>
+                                <a href="<?php echo base_url('master_data_peserta_motor/editpraktik/'.$data['id_ujian_praktik']); ?>" class="btn btn-danger float-right mb-3"><i class="fas fa-eye"></i></a>
+
                                 <?php endif; ?>
                             <?php if ( in_groups(['admin', 'penguji', 'pengawas'])) : ?>
-                                
-                                    <a href="<?php echo base_url('master_data_peserta_motor/p2/'.$data['nrp']); ?>" class="btn btn-warning float-right mb-3">Test</i></a>
+                                <a href="<?php echo base_url('master_data_peserta_motor/p2/'.$data['nrp']); ?>" class="btn btn-warning float-right mb-3">View</i></a>
+
+                                    <a href="#" data-id="<?= $data['id_ujian'];?>" class="btn btn-info float-right mb-3 btn-edit"  data-name="<?= $data['nilai_uji_teori'];?>">Nilai</a>
 
                             <?php endif; ?>
 
@@ -76,7 +80,35 @@
             </table>
         </div>
         <!-- /.container-fluid -->
-
+<!-- Modal Edit Penguji-->
+<form action="/master_data_peserta_motor/inputnilai" method="post">
+        <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit Nilai</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+             
+                <div class="form-group">
+                    <label>Nilai</label>
+                    <input type="tetextxt" class="form-control id_ujian" name="id_ujian" value="<?php echo $data['id_ujian']; ?>" readonly>
+                    <input type="text" class="form-control nilai_uji_teori" name="nilai_uji_teori" value="<?php echo $data['nilai_uji_teori']; ?>">
+                </div>           
+             
+            </div>
+            <div class="modal-footer">
+            <input type="hidden" name="id_ujian" class="id_ujian">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </form>
       </div>
                 </div>
                 <div class="col-auto">
@@ -92,6 +124,7 @@
                 <!-- /.container-fluid -->
 
             </div>
+            
             
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -115,6 +148,28 @@
         ]
     });
    })
+</script>
+<script>
+    $(document).ready(function(){
+ 
+        // get Edit Product
+        $('.btn-edit').on('click',function(){
+            // get data from button edit
+            const id = $(this).data('id');
+            const name = $(this).data('name');
+
+            
+            // Set data to Form Edit
+            $('.id_ujian').val(id);
+        
+            $('.nilai_uji_teori').val(name).trigger('change');
+
+            // Call Modal Edit
+            $('#editModal').modal('show');
+        });        
+         
+    });
+
 </script>
             <!-- End of Main Content -->
 

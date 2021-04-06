@@ -20,26 +20,51 @@
 
     <?= $this->section('script') ?>
     <script src="<?php echo base_url() ?>/ckeditor5-build-classic/ckeditor.js"></script>
-    <style>
+
+    <script>
+    $(document).ready(function(){
+ 
+        // get Edit Product
+        $('.btn-editnilai').on('click',function(){
+            // get data from button edit
+            const id = $(this).data('id');
+            const name = $(this).data('name');
+
+            
+            // Set data to Form Edit
+            $('.id_ujian').val(id);
+        
+            $('.nilai_uji_teori').val(name).trigger('change');
+
+            // Call Modal Edit
+            $('#editModalNilai').modal('show');
+        });        
+         
+    });
+
+</script>
+ <style>
     .box{
         color: #000;
         padding: 5px;
         display: none;
         margin-top: 5px;
     }
-    .red{ background: #fff; }
-    .green{ background: #fff; }
-    .blue{ background: #fff; }
-</style>
-    <script>
-$(document).ready(function(){
     
+    .kurang{ background: #fff; }
+    .cukup{ background: #fff; }
+    .baik{ background: #fff; }
+</style>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
     $('input[type="radio"]').click(function(){
         var inputValue = $(this).attr("value");
         var targetBox = $("." + inputValue);
         $(".box").not(targetBox).hide();
         $(targetBox).show();
     });
+    
 });
 </script>
     <script>
@@ -94,6 +119,8 @@ $(document).ready(function(){
     });
 
 </script>
+
+
 
     <style>
         .ck-editor__editable_inline{

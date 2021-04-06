@@ -89,7 +89,15 @@ class HasilUjianModel extends Model
          ->get()
          ->getResultArray();
     }
-
+    public function listingpraktikmotor($id)
+    {
+         return $this->table('h_ujian_praktik')
+         ->join('users','users.nrp=h_ujian_praktik.id_ujian_praktik', 'left')
+         ->join('tb_soal_teori','tb_soal_teori.id_soal=h_ujian_praktik.id_ujian_praktik', 'left')
+		 ->where('h_ujian_praktik.id_ujian_praktik', $id)
+         ->get()
+         ->getResultArray();
+    }
     // public function listing_kunci_jawaban($id)
     // {
     //     return $this->
@@ -106,7 +114,7 @@ class HasilUjianModel extends Model
 
         return $this->db->table('tb_soal_teori')
         // ->select('jawaban')
-        ->where('category_id', $id)
+        ->where('id_category', $id)
         ->get()
         ->getResultArray();
     }
@@ -125,5 +133,9 @@ class HasilUjianModel extends Model
     public function saveChoice($data)
     {
         return $this->db->table($this->table)->insert($data);
+    }
+    public function inputnilai($data, $id_ujian)
+    {
+        return $this->db->table($this->table)->update($data, ['id_ujian' => $id_ujian]);
     }
 }

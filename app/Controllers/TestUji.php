@@ -6,15 +6,15 @@ use App\Models\HasilUjianModel;
 
 class Testuji extends Controller
 {
-
-	public function index()
+public function index()
 	{ 
 		$session = session();
         $model = new BankModel();
 		// $model2 = new HasilUjianModel();
 		// $bank2 = $model2->getHasilChoice();
-		$id_user = user()->category_id;
-		$bank = $model->getBank($id_user);
+		$satu = user()->id;
+		$dua = user()->polda_id;
+		$bank = $model->getBank($satu, $dua);
 		
         $data = array(	'title'		=> 'Data',
 						'user'		=> $session,
@@ -24,6 +24,23 @@ class Testuji extends Controller
 		return view('admin/_partials/wrappertestuji',$data);
         
     }
+	// public function index()
+	// { 
+	// 	$session = session();
+    //     $model = new BankModel();
+	// 	// $model2 = new HasilUjianModel();
+	// 	// $bank2 = $model2->getHasilChoice();
+	// 	$id_user = user()->category_id;
+	// 	$bank = $model->getBank($id_user);
+		
+    //     $data = array(	'title'		=> 'Data',
+	// 					'user'		=> $session,
+	// 					// 'bank2'		=> $bank2,
+ 	// 					'bank'		=> $bank,
+	// 					'content'	=> 'admin/testuji');
+	// 	return view('admin/_partials/wrappertestuji',$data);
+        
+    // }
 	public function insert(){
 		// dd($this->request->getPost('1'));
 
@@ -72,7 +89,7 @@ class Testuji extends Controller
             // 'file' => $upload->getName()
         );
 		// $jawaban = $this->request->getPost('list_jawaban');
-		// dd($jawaban[13]);
+		// dd($jawaban);
 
         $model->saveChoice($data);
         return redirect()->to(base_url('home'))->with('berhasil', 'Data Berhasil di Simpan');

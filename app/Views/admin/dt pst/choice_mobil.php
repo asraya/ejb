@@ -1,4 +1,12 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css"/>
+</head>
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                     <!-- Page Heading -->
@@ -18,7 +26,7 @@
                        <!-- <a href="<?php echo base_url('/create'); ?>" class="btn btn-success float-right mb-3">+</a> -->
                        <!-- </div> -->
                        
-                       <table id="dataTable" class="table table-bordered">
+                       <table id="tab2" class="table table-bordered">
                 <thead>
                     <th>No</th>
                     <th>Nama Peserta</th>
@@ -55,6 +63,7 @@
                             <?php if ( in_groups(['admin', 'penguji', 'pengawas'])) : ?>
                                 
                                     <a href="<?php echo base_url('master_data_peserta_mobil/p1/'.$data['nrp']); ?>" class="btn btn-warning float-right mb-3">Test</i></a>
+                                    <a href="#" data-id="<?= $data['id_ujian'];?>" class="btn btn-info float-right mb-3 btn-editnilai"  data-name="<?= $data['nilai_uji_teori'];?>">Nilai</a>
 
                             <?php endif; ?>
 
@@ -66,6 +75,35 @@
                 </tbody>
             </table>
         </div>
+        <!-- Modal Edit Penguji-->
+<form action="/master_data_peserta_mobil/inputnilai" method="post">
+        <div class="modal fade" id="editnilai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit Nilai</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+             
+                <div class="form-group">
+                    <label>Nilai</label>
+                    <input type="hidden" class="form-control" name="id_ujian" value="<?php echo $data['id_ujian']; ?>" readonly>
+                    <input type="text" class="form-control" name="nilai_uji_teori" value="<?php echo $data['nilai_uji_teori']; ?>">
+                </div>           
+             
+            </div>
+            <div class="modal-footer">
+            
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </form>
         <!-- /.container-fluid -->
 
       </div>
@@ -86,3 +124,48 @@
             <!-- End of Main Content -->
 
             <!-- End of Main Content -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
+
+<script>
+   $(function(){
+     $("#tab2").DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+            'copyHtml5',
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5',
+            'pageLength'
+        ]
+    });
+   })
+</script>
+<script>
+    $(document).ready(function(){
+ 
+        // get Edit Product
+        $('.btn-editnilai').on('click',function(){
+            // get data from button edit
+            const id = $(this).data('id_ujian');
+            const nilai_uji_teori = $(this).data('nilai_uji_teori');
+
+            
+            // Set data to Form Edit
+            $('.id_ujian').val(id);
+        
+            $('.nilai_uji_teori').val(name).trigger('change');
+
+            // Call Modal Edit
+            $('#editnilai').modal('show');
+        });        
+         
+    });
+
+</script>

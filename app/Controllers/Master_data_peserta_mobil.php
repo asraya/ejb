@@ -17,7 +17,7 @@ public function index()
 			$data = array(	'title'		=> 'Data',
 							'list'	=> $list,
 							'content'	=> 'admin/dt pst/choice_mobil');
-			return view('admin/_partials/wrapper',$data);   
+			return view('admin/_partials/wrappermotor',$data);   
 	}
 
 	public function edit($id_ujian)
@@ -62,5 +62,17 @@ public function index()
 			return redirect()->to(base_url('master_data_peserta_mobil'))->with('berhasil', 'Data Berhasil di Simpan');
 		
 		}
+		public function inputnilai(){
+			{
+			$model = new HasilUjianModel();
+			$id = $this->request->getPost('id_ujian');
+			$data = array(
+				'nilai_uji_teori'  => $this->request->getPost('nilai_uji_teori'),           
+			);
+			$model->inputnilai($data, $id);
+			return redirect()->to(base_url('master_data_peserta_mobil'))->with('berhasil', 'Data Berhasil di Simpan');
+		}
 	
+		}
+		
 	}
