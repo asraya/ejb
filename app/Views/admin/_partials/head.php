@@ -21,7 +21,10 @@
     <link href="<?php echo base_url() ?>/css/sb-admin-2.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>/assets/datatables2/datatables.min.css"/>
 
-    </head>
+    <script>
+    var csrfName = '<?= csrf_token() ?>';
+    var csrfHash = '<?= csrf_hash() ?>';  
+  </script>
 </head>
 <body id="page-top">
 

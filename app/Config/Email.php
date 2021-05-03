@@ -13,7 +13,7 @@ class Email extends BaseConfig
 	/**
 	 * @var string
 	 */
-	public $fromName = 'info trainerkita'; 
+	public $fromName = 'info ejb'; 
 
 	/**
 	 * @var string

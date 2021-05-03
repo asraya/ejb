@@ -36,51 +36,55 @@ $routes->group('', ['filter' => 'login'], function($routes){
 	
 	//route dashboard
 	// $routes->get('dashboard', 'Dashboard::index');
-	$routes->get('dashboard', 'Dashboard::index', ['filter' => 'role:admin']);
-	$routes->get('dashboard/index', 'Dashboard::index', ['filter' => 'role:admin']);
+	$routes->get('dashboard', 'Dashboard::index', ['filter' => 'role:superadmin']);
+	$routes->get('dashboard/index', 'Dashboard::index', ['filter' => 'role:superadmin']);
 
 	// Route kategori test
-	$routes->get('categorytest', 'Categorytest::index', ['filter' => 'role:admin']);
-	$routes->get('categorytest/index', 'Categorytest::index', ['filter' => 'role:admin']);
+	$routes->get('categorytest', 'Categorytest::index', ['filter' => 'role:superadmin']);
+	$routes->get('categorytest/index', 'Categorytest::index', ['filter' => 'role:superadmin']);
 
 	// Route test pilihan ganda
-	$routes->get('testuji', 'Testuji::index', ['filter' => 'role:admin,peserta']);
-	$routes->get('testuji/index', 'Testuji::index', ['filter' => 'role:admin,peserta']);
+	$routes->get('testuji', 'Testuji::index', ['filter' => 'role:superadmin,peserta']);
+	$routes->get('testuji/index', 'Testuji::index', ['filter' => 'role:superadmin,peserta']);
 
 	// Route role&permission
-	$routes->get('role', 'Role::index', ['filter' => 'role:admin']);
-	$routes->get('role/index', 'Role::index', ['filter' => 'role:admin']);
-	$routes->get('permission', 'Permission::index', ['filter' => 'role:admin']);
-	$routes->get('permission/index', 'Role::index', ['filter' => 'role:admin']);
+	$routes->get('role', 'Role::index', ['filter' => 'permission:Manage-roles']);
+	$routes->get('role/index', 'Role::index', ['filter' => 'permission:Manage-roles']);
+	$routes->get('permission', 'Permission::index', ['filter' => 'permission:Manage-permissions']);
+	$routes->get('permission/index', 'Permission::index', ['filter' => 'permission:Manage-permissions']);
 
 	// Route master data user
-	$routes->get('master_data_user', 'Master_data_user::index', ['filter' => 'role:admin']);
-	$routes->get('master_data_user/index', 'Master_data_user::index', ['filter' => 'role:admin']);
-	$routes->get('master_data_penguji', 'Master_data_penguji::index', ['filter' => 'role:admin']);
-	$routes->get('master_data_penguji/index', 'Master_data_penguji::index', ['filter' => 'role:admin']);
-	$routes->get('master_data_pengawas', 'Master_data_pengawas::index', ['filter' => 'role:admin']);
-	$routes->get('master_data_pengawas/index', 'Master_data_pengawas::index', ['filter' => 'role:admin']);
+	$routes->get('carmanagement', 'CarManagement::index', ['filter' => 'permission:Manage-cars']);
+	$routes->get('carmanagement/index', 'CarManagement::index', ['filter' => 'permission:Manage-cars']);
+
+	$routes->get('master_data_user', 'Master_data_user::index', ['filter' => 'permission:Manage-users']);
+	$routes->get('master_data_user/index', 'Master_data_user::index', ['filter' => 'permission:Manage-users']);
+
+	$routes->get('master_data_penguji', 'Master_data_penguji::index', ['filter' => 'role:superadmin']);
+	$routes->get('master_data_penguji/index', 'Master_data_penguji::index', ['filter' => 'role:superadmin']);
+	$routes->get('master_data_pengawas', 'Master_data_pengawas::index', ['filter' => 'role:superadmin']);
+	$routes->get('master_data_pengawas/index', 'Master_data_pengawas::index', ['filter' => 'role:superadmin']);
 	
 	// Route bank soal
-	$routes->get('bank_soal', 'Bank_soal::index', ['filter' => 'role:admin']);
-	$routes->get('bank_soal/index', 'Bank_soal::index', ['filter' => 'role:admin']);
+	$routes->get('bank_soal', 'Bank_soal::index', ['filter' => 'role:superadmin']);
+	$routes->get('bank_soal/index', 'Bank_soal::index', ['filter' => 'role:superadmin']);
 
 	// Route master test
-	$routes->get('master_data_peserta_motor', 'Master_data_peserta_motor::index', ['filter' => 'role:admin,penguji']);
-	$routes->get('master_data_peserta_motor/index', 'Master_data_peserta_motor::index', ['filter' => 'role:admin,penguji']);
-	$routes->get('master_data_peserta_motor/p2', 'Master_data_peserta_motor::p2', ['filter' => 'role:admin']);
+	$routes->get('master_data_peserta_motor', 'Master_data_peserta_motor::index', ['filter' => 'role:superadmin,penguji']);
+	$routes->get('master_data_peserta_motor/index', 'Master_data_peserta_motor::index', ['filter' => 'role:superadmin,penguji']);
+	$routes->get('master_data_peserta_motor/p2', 'Master_data_peserta_motor::p2', ['filter' => 'role:superadmin']);
 
-	$routes->get('master_data_peserta_mobil', 'Master_data_peserta_mobil::index', ['filter' => 'role:admin,penguji']);
-	$routes->get('master_data_peserta_mobil/index', 'Master_data_peserta_mobil::index', ['filter' => 'role:admin,penguji']);
+	$routes->get('master_data_peserta_mobil', 'Master_data_peserta_mobil::index', ['filter' => 'role:superadmin,penguji']);
+	$routes->get('master_data_peserta_mobil/index', 'Master_data_peserta_mobil::index', ['filter' => 'role:superadmin,penguji']);
 
-	$routes->get('master_data_peserta_wawancara', 'Master_data_peserta_wawancara::index', ['filter' => 'role:admin,penguji']);
-	$routes->get('master_data_peserta_wawancara/index', 'Master_data_peserta_wawancara::index', ['filter' => 'role:admin,penguji']);
+	$routes->get('master_data_peserta_wawancara', 'Master_data_peserta_wawancara::index', ['filter' => 'role:superadmin,penguji']);
+	$routes->get('master_data_peserta_wawancara/index', 'Master_data_peserta_wawancara::index', ['filter' => 'role:superadmin,penguji']);
 
-	$routes->get('master_data_peserta', 'Master_data_peserta::index', ['filter' => 'role:admin,penguji']);
-	$routes->get('master_data_peserta/index', 'Master_data_peserta::index', ['filter' => 'role:admin,penguji']);
+	$routes->get('master_data_peserta', 'Master_data_peserta::index', ['filter' => 'role:superadmin,penguji']);
+	$routes->get('master_data_peserta/index', 'Master_data_peserta::index', ['filter' => 'role:superadmin,penguji']);
 	
-	$routes->get('students', 'StudentController::index', ['filter' => 'role:admin']);
-	$routes->get('students/index', 'StudentController::index', ['filter' => 'role:admin']);
+	$routes->get('students', 'StudentController::index', ['filter' => 'role:superadmin']);
+	$routes->get('students/index', 'StudentController::index', ['filter' => 'role:superadmin']);
 }); 
 
 $routes->get('index', 'Index::index');
@@ -106,4 +110,4 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php'))
 	require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
 
-$route['admin'] = 'admin/overview';
+$route['superadmin'] = 'superadmin/overview';

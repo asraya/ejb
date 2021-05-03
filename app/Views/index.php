@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>KORLANTAS || Trainning Trainer</title>
+	<title>Ejb || Trainning Trainer</title>
 	<meta name="description" content="The small framework with powerful features">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../../../../tk.png">
@@ -331,9 +331,12 @@
 			<li class="menu-toggle">
 				<button onclick="toggleMenu();">&#9776;</button>
 			</li>
-			<!-- <li class="menu-item hidden"><a href="/dashboard">Home</a></li>	 -->
+			<li class="menu-item hidden"><a href="/dashboard">Home</a></li>
+			<li class="menu-item hidden"><a href="/dashboard">About</a></li>
+			<li class="menu-item hidden"><a href="/dashboard">Contact</a></li>
+
 <?php if (logged_in()) : ?>
-	<li class="menu-item hidden"><a	href="/dokumen"><?= user()->name; ?></a></li>
+	<li class="menu-item hidden"><a	href="/dashboard"><?= user()->name; ?> / Dashboard</a></li>
 
 <?php else : ?>
 	<li class="menu-item hidden"><a	href="/login">Login</a></li>
@@ -376,7 +379,7 @@
 
 	<div class="copyrights">
 
-		<p>&copy; <?= date('Y') ?> Trainer Kita.</p>
+		<p>&copy; <?= date('Y') ?> Eka Jaya Berrindo.</p>
 
 	</div>
 
