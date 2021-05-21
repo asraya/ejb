@@ -4,7 +4,8 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800"> Role Management</h1>
-                        <a href="<?php echo base_url('maintenance'); ?>" class="btn btn-success float-right mb-3">+</a>
+                        <a href="<?php echo base_url('role/create'); ?>" class="btn btn-success float-right mb-3">+</a>
+
                       
                     </div>
                     <div class="row">
@@ -20,7 +21,7 @@
                        <div>
                        </div>
 					   <select class="form-control input-sm" id="user_id">
-                       <option value="">[ Search by Bol ]</option>
+                       <option value="">[ Search by id ]</option>
                        <option value="1">1</option>
                        <option value="2">2</option>
                        </select>

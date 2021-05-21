@@ -46,3 +46,79 @@ Stack trace:
   thrown
 #0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
 #1 {main}
+CRITICAL - 2021-05-02 23:10:05 --> Invalid file: indexs.php
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('indexs.php')
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('indexs', Array, true)
+#2 C:\xampp\htdocs\ejb\app\Controllers\Index.php(9): view('indexs', Array)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-02 23:12:11 --> Cannot call constructor
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Index->__construct()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-02 23:12:22 --> Undefined property: App\Controllers\Index::$load
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Index->__construct()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-02 23:13:01 --> Undefined property: App\Controllers\Index::$konfigurasi_model
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-02 23:13:24 --> Undefined property: App\Controllers\Index::$CmsModel
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-02 23:14:52 --> Undefined property: App\Controllers\Index::$CmsModel
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-02 23:15:38 --> Undefined property: App\Controllers\Index::$model
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-02 23:16:52 --> Call to undefined method App\Models\CmsModel::head
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Model->__call('head', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-02 23:22:02 --> Undefined index: app_name
+#0 C:\xampp\htdocs\ejb\app\Views\index.php(382): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 382, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\ejb\app\Controllers\Index.php(14): view('index', Array)
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

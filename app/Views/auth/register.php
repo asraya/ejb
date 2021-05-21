@@ -42,7 +42,7 @@
 
 
                             <form action="<?= route_to('register') ?>" method="post" class ="user">
-                                    <?= csrf_field() ?> 
+                                    <?= csrf_field() ?>
 
                                     <div class="form-group">
                                     <input type="text" class="form-control <?php if(session('errors.name')) : ?>is-invalid<?php endif ?>"
@@ -51,10 +51,10 @@
                                    </div>                                    
 
                                     <div class="form-group">
-                                    <label for="jenis_kelamin"><?=lang('Auth.jenis_kelamin')?>:</label>&nbsp;&nbsp;
-                                    <input type="radio" id="pria" name="jenis_kelamin" value="Pria">
+                                    <label for="type"><?=lang('Auth.type')?>:</label>&nbsp;&nbsp;
+                                    <input type="radio" id="pria" name="type" value="Pria">
                                         <label for="pria">Pria</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Wanita">
+                                    <input type="radio" id="perempuan" name="type" value="Wanita">
                                         <label for="wanita">Wanita</label>                                       
                                     </div>
 
@@ -70,36 +70,36 @@
                                             <input type="date" name="tanggal_lahir" class="form-control <?php if(session('errors.tanggal_lahir')) : ?>is-invalid<?php endif ?>" 
                                             placeholder="<?=lang('Auth.formatdate')?>" value="<?= old('tanggal_lahir') ?>" autocomplete="off">
                                         </div>                               
-                                    </div>
+                                    <!--</div>
 
                                     
-                                    <div class="form-group row">
+                                     <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <label>Pangkat</label>
                                         <select class="form-control"  name="pangkat_id" id="pangkat" required>
                                             <option  value="">No Selected</option>
-                                            <?php foreach($pangkat as $row):?>
-                                            <option value="<?php echo $row['id'] ?>"><?php echo $row['pangkat'] ?></option>
-                                            <?php endforeach;?>
+                                            <php foreach($pangkat as $row):?>
+                                            <option value="<php echo $row['id'] ?>"><php echo $row['pangkat'] ?></option>
+                                            <php endforeach;?>
                                         </select>
-                                    </div> 
+                                    </div>  -->
 
                                     <div class="col-sm-6">
-                                    <label>Nrp</label>
-                                        <input type="text" class="form-control <?php if(session('errors.nrp')) : ?>is-invalid<?php endif ?>"
-                                        id="nrp" name="nrp" maxlength='8' onkeypress="return hanyaAngka(event)" placeholder="<?=lang('Auth.nrp')?>" value="<?= old('nrp') ?>">
+                                    <label>ktp</label>
+                                        <input type="text" class="form-control <?php if(session('errors.ktp')) : ?>is-invalid<?php endif ?>"
+                                        id="ktp" name="ktp" maxlength='8' onkeypress="return hanyaAngka(event)" placeholder="<?=lang('Auth.ktp')?>" value="<?= old('ktp') ?>">
                                     </div>
                                     </div>
 
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label>Asal polda</label>
                                         <select class="form-control" name="polda_id" id="asal_polda" required>
                                             <option value="">No Selected</option>
-                                            <?php foreach($asal_polda as $row):?>
-                                            <option  value="<?php echo $row['id'] ?>"><?php echo $row['asal_polda'] ?></option>
-                                            <?php endforeach;?>
+                                            <php foreach($asal_polda as $row):?>
+                                            <option  value="<php echo $row['id'] ?>"><php echo $row['asal_polda'] ?></option>
+                                            <php endforeach;?>
                                         </select>
-                                    </div>                                                                                            
+                                    </div> -->
 
                                     <div class="form-group <?php if(session('errors.sim')) : ?>is-invalid<?php endif ?>">
                                     <label for="sim"><?=lang('Auth.sim')?>:</label>

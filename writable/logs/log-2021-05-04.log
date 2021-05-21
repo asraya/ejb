@@ -1,0 +1,136 @@
+CRITICAL - 2021-05-04 22:22:34 --> View themes, no current section.
+#0 C:\xampp\htdocs\ejb\app\Views\auth\login.php(117): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('\\App\\Views\\auth...', Array, true)
+#3 C:\xampp\htdocs\ejb\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(447): view('\\App\\Views\\auth...', Array)
+#4 C:\xampp\htdocs\ejb\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(59): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\auth...', Array)
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->login()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-04 23:18:08 --> Call to undefined method App\Models\CarModel::get_by_id
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(108): CodeIgniter\Model->__call('get_by_id', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('19')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-04 23:18:55 --> Call to undefined method App\Models\CarModel::get_by_id
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(108): CodeIgniter\Model->__call('get_by_id', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('19')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-04 23:19:14 --> Call to undefined method App\Models\CarModel::get_by_id
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(108): CodeIgniter\Model->__call('get_by_id', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('19')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-04 23:20:02 --> Call to undefined method App\Models\CarModel::get_by_id
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(108): CodeIgniter\Model->__call('get_by_id', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('19')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-04 23:21:43 --> Call to undefined method App\Models\CarModel::get_by_id
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(108): CodeIgniter\Model->__call('get_by_id', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('19')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-04 23:29:33 --> Undefined variable: data
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('19')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-04 23:29:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('19')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-04 23:30:18 --> Undefined property: App\Controllers\CarManagement::$model
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('21')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-04 23:50:44 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\ejb\app\Views\admin\_partials\js.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\ejb\app\Views\admin\_partials\wrapper.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#4 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(11): view('admin/_partials...', Array)
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->index()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#7 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-04 23:51:04 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\ejb\app\Views\admin\_partials\js.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\ejb\app\Views\admin\_partials\wrapper.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#4 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(11): view('admin/_partials...', Array)
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->index()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#7 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-04 23:51:43 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('backend/cms_new...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-04 23:52:21 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('backend/cms_new...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-04 23:54:14 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-04 23:56:32 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

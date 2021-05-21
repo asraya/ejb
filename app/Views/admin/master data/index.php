@@ -3,7 +3,7 @@
                 <div class="container-fluid">
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800"> Car management</h1>
+                        <h1 class="h3 mb-0 text-gray-800"> Users management</h1>
                         <a href="<?php echo base_url('maintenance'); ?>" class="btn btn-success float-right mb-3">+</a>
                       
                     </div>
@@ -16,7 +16,7 @@
             <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                       Car management</div>                       
+                       Users management</div>                       
                        <div>
                        </div>
 					   <select class="form-control input-sm" id="Type">

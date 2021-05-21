@@ -3,13 +3,10 @@ use CodeIgniter\Model;
 
 class CarModel extends Model
 {
-	protected $allowedFields =
-    [
-		'id', 'merk_mobil', 'type', 'file', 
-    ];
+	// protected $allowedFields =  [ 'id', 'merk_mobil', 'type', 'file' ];
 	protected $table = "t_car";
 
-	var $column_order = array('id', 'merk_mobil', 'type', 'file');
+	var $column_order = array('id', 'merk_mobil', 'type');
 	var $order = array('id' => 'asc');
 	protected $primaryKey = 'id';
 	protected $createdField  = 'created_at';
@@ -104,12 +101,26 @@ class CarModel extends Model
         }   
     }
 	
-	// public function insert_car($data)
-    // {
-    //     return $this->db->table('t_car')->insert($data);
-    // }
-	 function insert_car($data)
+	public function insert_car($data)
     {
-        return $this->db->table($this->table)->insert($data);
+        return $this->db->table('t_car')->insert($data);
+    }
+	//  function insert_car($data)
+    // {
+    //     return $this->db->table($this->table)->insert($data);
+    // }
+	public function get_by_id($id) {
+		$sql = 'select * from t_car where id ='.$id ;
+		$query =  $this->db->query($sql);
+		 
+		return $query->getRow();
+	  }
+	  public function car_update($where, $data) {
+        $this->db->table($this->table)->update($data, $where);
+//        print_r($this->db->getLastQuery());
+        return $this->db->affectedRows();
+    }
+	public function delete_by_id($id) {
+        $this->db->table($this->table)->delete(array('id' => $id)); 
     }
 }

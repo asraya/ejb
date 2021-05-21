@@ -20,16 +20,19 @@
 
     <?= $this->section('script') ?>
     <script src="<?php echo base_url() ?>/ckeditor5-build-classic/ckeditor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.js"
+        integrity="sha256-siqh9650JHbYFKyZeTEAhq+3jvkFCG8Iz+MHdr9eKrw=" crossorigin="anonymous"></script>
 
-
-<script type="text/javascript">
-$(document).ready( function () {
-	var table = $('#table_teman').DataTable({
+<!-- CMS -->
+        <script type="text/javascript">
+$(document).ready( function ()
+{
+	 table = $('#cms_table').DataTable({
 		"order" : [],
 		"processing" : true,
 		"serverSide" : true,
 		"ajax" : {
-			"url" : "<?php echo site_url('CarManagement/table_data'); ?>",
+			"url" : "<?php echo site_url('cms/table_data'); ?>",
 			"type" : "POST",
             "data" : {"csrf_test_name" : $('input[name=csrf_test_name]').val()},
             "data" : function(data){
@@ -45,12 +48,16 @@ $(document).ready( function () {
 			"targets" : [],
 			"orderable" : false
 		}]
+        
 	});
     $('#Type').change(function(){
  table.draw();
+ })
+
+ 
 });
 
-function ajax_edit(id)
+function cms_edit(id)
     {
         save_method = 'update';
         $('#form_create')[0].reset(); // reset form on modals
@@ -58,17 +65,30 @@ function ajax_edit(id)
         $('.help-block').empty(); // clear error string
         
         $.ajax({
-            url : "<?php echo site_url('backend/cms_news/edit')?>/" + id,
+            url : "<?php echo site_url('Cms/edit')?>/" + id,
             type: "GET",
             dataType: "JSON",
+            data : {"csrf_test_name" : $('input[name=csrf_test_name]').val()
+            },
+            "dataSrc" :  function(response){
+                $('input[name=csrf_test_name]').val(response.csrf_test_name);
+                return response.data;
+            },
             success: function(data)
             {
+                data.csrf_test_name = $('input[name=csrf_test_name]').val();
+                $('input[name=csrf_test_name').val(data.csrf_test_name);
+
                 $('[name="id"]').val(data.id);
-                $('[name="title"]').val(data.title);
+                $('[name="app_name"]').val(data.app_name);
+                $('[name="app_slug"]').val(data.app_slug);
                 $('[name="link"]').val(data.link);
+                $('[name="image"]').val(data.image);
                 $('[name="description"]').val(data.description);
-                
-                $('#modal-create').modal('show'); // show bootstrap modal when complete loaded
+
+                $('[name="updated_by"]').val(data.updated_by);
+
+                $('#modal-cms').modal('show'); // show bootstrap modal when complete loaded
                 $('.modal-title').text('Edit Data'); // Set title to Bootstrap modal title
                 
             },
@@ -76,65 +96,218 @@ function ajax_edit(id)
             {
                 iziToast.error({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
                         title: 'Error get data from ajax',
-                        message: 'success',
+                        message: "success update",
                         position: 'topRight'
                         
                 });
                 // alert('Error get data from ajax');
             }
+           
         });
     }
-});
 
+    function ajax_save()
+    {
+        $('#btn_save').text('saving...'); //change button text
+        $('#btn_save').attr('disabled',true); //set button disable 
+        var url;
+     
+        if(save_method == 'add') {
+            url = "<?php echo site_url('CarManagement/store')?>";
+        } else {
+            url = "<?php echo site_url('CarManagement/update')?>";
+        }
+     
+        // ajax adding data to database
+        var formData = new FormData($('#form_create')[0]);
+        // formData.append('content', CKEDITOR.instances['content'].getData());
+
+        $.ajax({
+            url : url,
+            type: "POST",
+            data: formData, //$('#form_blog').serialize(),
+            contentType : false, 
+            processData : false,
+            dataType: "JSON",
+
+            // "dataSrc" :  function(response){
+            //     $('input[name=csrf_test_name]').val(response.csrf_test_name);
+            //     return response.data;
+            // },
+            success: function(data)
+            {
+                // data.csrf_test_name = $('input[name=csrf_test_name]').val();
+                // $('input[name=csrf_test_name').val(csrf.csrf_test_name);
+
+                if(data.status) //if success close modal and reload ajax table
+                {
+                    iziToast.success({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
+                        title: 'Data Successfully Added',
+                        message: "success added",
+                        position: 'topRight'
+                        
+                    });
+                    $('#modal-cms').modal('hide');
+                    reload_table();
+                }else{
+                    
+                    for (var i = 0; i < data.inputerror.length; i++) 
+                    {
+                        $('[name="'+data.inputerror[i]+'"]').parent().parent().addClass('has-error'); //select parent twice to select div form-group class and add has-error class
+                        $('[name="'+data.inputerror[i]+'"]').next().text(data.error_string[i]); //select span help-block class set text error string
+                    }
+                
+                }
+                $('#btn_save').text('Save'); //change button text
+                $('#btn_save').attr('disabled',false); //set button enable 
+     
+     
+            },
+            error: function (jqXHR, textStatus, errorThrown)
+            {
+                iziToast.error({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
+                        title: 'Error Adding / Update Data',
+                        message: "success",
+                        position: 'topRight'
+                        
+                });
+                // alert('Error adding / update data');
+                $('#btn_save').text('Save'); //change button text
+                $('#btn_save').attr('disabled',false); //set button enable 
+     
+            }
+        });
+    }
+    function reload_table()
+    {
+        table.ajax.reload(null,false); //reload datatable ajax 
+    }
+
+    function ajax_delete(id)
+    {
+
+        iziToast.question({
+            timeout: 20000,
+            close: false,
+            overlay: true,
+            displayMode: 'once',
+            id: 'question',
+            zindex: 999,
+            title: 'Hey',
+            message: 'Are you sure about that?',
+            position: 'center',
+            buttons: [
+                ['<button><b>YES</b></button>', function (instance, toast) {
+                    $.ajax({
+                        url : "<?php echo site_url('CarManagement/delete')?>/"+id,
+                        type: "POST",
+                        dataType: "JSON",
+                        success: function(data)
+                        {
+                            //if success reload ajax table
+
+                            iziToast.success({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
+                                    title: 'Data Successfully Deleted',
+                                    message: "success",
+                                    position: 'topRight'
+                                    
+                            });
+                            $('#modal-cms').modal('hide');
+                            reload_table();
+                        },
+                        error: function (jqXHR, textStatus, errorThrown)
+                        {
+                            iziToast.warning({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
+                                    title: 'Error deleting data',
+                                    message: "success",
+                                    position: 'topRight'
+                                    
+                            });
+                            // alert('Error deleting data');
+                        }
+                    });
+
+                    instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+         
+                }, true],
+                ['<button>NO</button>', function (instance, toast) {
+         
+                    instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+         
+                }],
+            ],
+            onClosing: function(instance, toast, closedBy){
+                console.info('Closing | closedBy: ' + closedBy);
+            },
+            onClosed: function(instance, toast, closedBy){
+                console.info('Closed | closedBy: ' + closedBy);
+            }
+        });
+       
+    }
 </script>
 
-<script type="text/javascript">
-$(document).ready( function () {
-	var table = $('#role_table').DataTable({
+    <script type="text/javascript">
+$(document).ready( function ()
+{
+	 table = $('#permission_table').DataTable({
 		"order" : [],
 		"processing" : true,
 		"serverSide" : true,
 		"ajax" : {
-			"url" : "<?php echo site_url('Role/table_data'); ?>",
+			"url" : "<?php echo site_url('Permission/table_data'); ?>",
 			"type" : "POST",
-            "data" : {"csrf_test_name" : $('input[name=csrf_test_name]').val()},
+            // "data" : {"csrf_test_name" : $('input[name=csrf_test_name]').val()},
             "data" : function(data){
-                data.csrf_test_name = $('input[name=csrf_test_name]').val();
-                data.user_id = $('#user_id').val();
+                // data.csrf_test_name = $('input[name=csrf_test_name]').val();
+                data.Type = $('#user_id').val();
             },
-            "dataSrc" :  function(response){
-                $('input[name=csrf_test_name]').val(response.csrf_test_name);
-                return response.data;
-            }
+            // "dataSrc" :  function(response){
+            //     $('input[name=csrf_test_name]').val(response.csrf_test_name);
+            //     return response.data;
+            // }
 		},
 		"columnDefs" : [{
 			"targets" : [],
 			"orderable" : false
 		}]
+        
 	});
     $('#user_id').change(function(){
  table.draw();
+ })
+
+ 
 });
 
-function ajax_edit(Id)
+function permission_edit(id)
     {
         save_method = 'update';
-        $('#form_create')[0].reset(); // reset form on modals
+        $('#form_permission')[0].reset(); // reset form on modals
         $('.form-group').removeClass('has-error'); // clear error class
         $('.help-block').empty(); // clear error string
         
         $.ajax({
-            url : "<?php echo site_url('backend/cms_news/edit')?>/" + id,
+            url : "<?php echo site_url('Permission/edit')?>/" + id,
             type: "GET",
             dataType: "JSON",
+            data : {"csrf_test_name" : $('input[name=csrf_test_name]').val()
+            },
+            "dataSrc" :  function(response){
+                $('input[name=csrf_test_name]').val(response.csrf_test_name);
+                return response.data;
+            },
             success: function(data)
             {
+                data.csrf_test_name = $('input[name=csrf_test_name]').val();
+                $('input[name=csrf_test_name').val(data.csrf_test_name);
+
                 $('[name="id"]').val(data.id);
-                $('[name="title"]').val(data.title);
-                $('[name="link"]').val(data.link);
-                $('[name="description"]').val(data.description);
-                
-                $('#modal-create').modal('show'); // show bootstrap modal when complete loaded
+                $('[name="permission_id"]').val(data.permission_id);
+                $('[name="user_id"]').val(data.user_id);
+                $('[name="type"]').val(data.type);
+
+                $('#modal-permission').modal('show'); // show bootstrap modal when complete loaded
                 $('.modal-title').text('Edit Data'); // Set title to Bootstrap modal title
                 
             },
@@ -142,47 +315,193 @@ function ajax_edit(Id)
             {
                 iziToast.error({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
                         title: 'Error get data from ajax',
-                        message: 'success',
+                        message: "success update",
                         position: 'topRight'
                         
                 });
                 // alert('Error get data from ajax');
             }
+           
         });
     }
-});
 
+    function permission_ajax()
+    {
+        $('#btn_save').text('saving...'); //change button text
+        $('#btn_save').attr('disabled',true); //set button disable 
+        var url;
+     
+        if(save_method == 'add') {
+            url = "<?php echo site_url('Permission/store')?>";
+        } else {
+            url = "<?php echo site_url('Permission/update')?>";
+        }
+     
+        // ajax adding data to database
+        var formData = new FormData($('#form_permission')[0]);
+        // formData.append('content', CKEDITOR.instances['content'].getData());
+
+        $.ajax({
+            url : url,
+            type: "POST",
+            data: formData, //$('#form_blog').serialize(),
+            contentType : false, 
+            processData : false,
+            dataType: "JSON",
+
+            // "dataSrc" :  function(response){
+            //     $('input[name=csrf_test_name]').val(response.csrf_test_name);
+            //     return response.data;
+            // },
+            success: function(data)
+            {
+                // data.csrf_test_name = $('input[name=csrf_test_name]').val();
+                // $('input[name=csrf_test_name').val(csrf.csrf_test_name);
+
+                if(data.status) //if success close modal and reload ajax table
+                {
+                    iziToast.success({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
+                        title: 'Data Successfully Added',
+                        message: "success added",
+                        position: 'topRight'
+                        
+                    });
+                    $('#modal-permission').modal('hide');
+                    reload_table();
+                }else{
+                    
+                    for (var i = 0; i < data.inputerror.length; i++) 
+                    {
+                        $('[name="'+data.inputerror[i]+'"]').parent().parent().addClass('has-error'); //select parent twice to select div form-group class and add has-error class
+                        $('[name="'+data.inputerror[i]+'"]').next().text(data.error_string[i]); //select span help-block class set text error string
+                    }
+                
+                }
+                $('#btn_save').text('Save'); //change button text
+                $('#btn_save').attr('disabled',false); //set button enable 
+     
+     
+            },
+            error: function (jqXHR, textStatus, errorThrown)
+            {
+                iziToast.error({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
+                        title: 'Error Adding / Update Data',
+                        message: "success",
+                        position: 'topRight'
+                        
+                });
+                // alert('Error adding / update data');
+                $('#btn_save').text('Save'); //change button text
+                $('#btn_save').attr('disabled',false); //set button enable 
+     
+            }
+        });
+    }
+    function reload_table()
+    {
+        table.ajax.reload(null,false); //reload datatable ajax 
+    }
+   
+
+    function permission_delete(id)
+    {
+
+        iziToast.question({
+            timeout: 20000,
+            close: false,
+            overlay: true,
+            displayMode: 'once',
+            id: 'question',
+            zindex: 999,
+            title: 'Hey',
+            message: 'Are you sure about that?',
+            position: 'center',
+            buttons: [
+                ['<button><b>YES</b></button>', function (instance, toast) {
+                    $.ajax({
+                        url : "<?php echo site_url('Permission/delete')?>/"+id,
+                        type: "POST",
+                        dataType: "JSON",
+                        success: function(data)
+                        {
+                            //if success reload ajax table
+
+                            iziToast.success({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
+                                    title: 'Data Successfully Deleted',
+                                    message: "success",
+                                    position: 'topRight'
+                                    
+                            });
+                            $('#modal-permission').modal('hide');
+                            reload_table();
+                        },
+                        error: function (jqXHR, textStatus, errorThrown)
+                        {
+                            iziToast.warning({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
+                                    title: 'Error deleting data',
+                                    message: "success",
+                                    position: 'topRight'
+                                    
+                            });
+                            // alert('Error deleting data');
+                        }
+                    });
+
+                    instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+         
+                }, true],
+                ['<button>NO</button>', function (instance, toast) {
+         
+                    instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+         
+                }],
+            ],
+            onClosing: function(instance, toast, closedBy){
+                console.info('Closing | closedBy: ' + closedBy);
+            },
+            onClosed: function(instance, toast, closedBy){
+                console.info('Closed | closedBy: ' + closedBy);
+            }
+        });
+       
+    }
 </script>
+
+
 <script type="text/javascript">
 $(document).ready( function ()
- {
-	var table = $('#user_table').DataTable({
+{
+	 table = $('#cms_table').DataTable({
 		"order" : [],
 		"processing" : true,
 		"serverSide" : true,
 		"ajax" : {
-			"url" : "<?php echo site_url('Master_data_user/table_data'); ?>",
+			"url" : "<?php echo site_url('cms/table_data'); ?>",
 			"type" : "POST",
-            "data" : {"csrf_test_name" : $('input[name=csrf_test_name]').val()},
+            // "data" : {"csrf_test_name" : $('input[name=csrf_test_name]').val()},
             "data" : function(data){
-                data.csrf_test_name = $('input[name=csrf_test_name]').val();
+                // data.csrf_test_name = $('input[name=csrf_test_name]').val();
                 data.Type = $('#Type').val();
             },
-            "dataSrc" :  function(response){
-                $('input[name=csrf_test_name]').val(response.csrf_test_name);
-                return response.data;
-            }
+            // "dataSrc" :  function(response){
+            //     $('input[name=csrf_test_name]').val(response.csrf_test_name);
+            //     return response.data;
+            // }
 		},
 		"columnDefs" : [{
 			"targets" : [],
 			"orderable" : false
 		}]
+        
 	});
     $('#Type').change(function(){
  table.draw();
+ })
 
+ 
+});
 
- function ajax_edit(id)
+function cms_edit(id)
     {
         save_method = 'update';
         $('#form_create')[0].reset(); // reset form on modals
@@ -190,17 +509,30 @@ $(document).ready( function ()
         $('.help-block').empty(); // clear error string
         
         $.ajax({
-            url : "<?php echo site_url('backend/cms_news/edit')?>/" + id,
+            url : "<?php echo site_url('Cms/edit')?>/" + id,
             type: "GET",
             dataType: "JSON",
+            data : {"csrf_test_name" : $('input[name=csrf_test_name]').val()
+            },
+            "dataSrc" :  function(response){
+                $('input[name=csrf_test_name]').val(response.csrf_test_name);
+                return response.data;
+            },
             success: function(data)
             {
+                data.csrf_test_name = $('input[name=csrf_test_name]').val();
+                $('input[name=csrf_test_name').val(data.csrf_test_name);
+
                 $('[name="id"]').val(data.id);
-                $('[name="title"]').val(data.title);
+                $('[name="app_name"]').val(data.app_name);
+                $('[name="app_slug"]').val(data.app_slug);
                 $('[name="link"]').val(data.link);
+                $('[name="image"]').val(data.image);
                 $('[name="description"]').val(data.description);
-                
-                $('#modal-create').modal('show'); // show bootstrap modal when complete loaded
+
+                $('[name="updated_by"]').val(data.updated_by);
+
+                $('#modal-cms').modal('show'); // show bootstrap modal when complete loaded
                 $('.modal-title').text('Edit Data'); // Set title to Bootstrap modal title
                 
             },
@@ -208,15 +540,12 @@ $(document).ready( function ()
             {
                 iziToast.error({ //tampilkan iziToast dengan notif data berhasil disimpan pada posisi kanan bawah
                         title: 'Error get data from ajax',
-                        message: 'success',
+                        message: "success update",
                         position: 'topRight'
                         
                 });
                 // alert('Error get data from ajax');
             }
+           
         });
     }
-});
-});
-</script>
-

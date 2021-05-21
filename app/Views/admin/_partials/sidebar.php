@@ -2,7 +2,7 @@
 
             <!-- Sidebar - Brand -->
             <center>
-            <img class="img-profile rounded-circle"  src="img/korlantas.png"  height="120" width="120">
+            <img class="img-profile rounded-circle" src="img/korlantas.png"  height="120" width="120">
             </center>
 
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('home') ?>">
@@ -33,6 +33,14 @@
                     <span>Car management</span></a>
             </li>
             <?php endif; ?>
+            <?php if ( in_groups(['superadmin'])) : ?>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('carmanagement') ?>">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>instructor management</span></a>
+            </li>
+            <?php endif; ?>
+
             <?php if ( in_groups(['superadmin'])) : ?>
              <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('carmanagement') ?>">
@@ -91,7 +99,7 @@
             <?php endif; ?>
             <?php if ( in_groups(['superadmin'])) : ?>
              <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('carmanagement') ?>">
+                <a class="nav-link" href="<?php echo base_url('cms') ?>">
                 <i class="fas fa-fw fa-table"></i>
                     <span>CMS</span></a>
             </li>

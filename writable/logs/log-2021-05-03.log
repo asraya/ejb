@@ -1,0 +1,54 @@
+CRITICAL - 2021-05-03 01:23:37 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#1 C:\xampp\htdocs\ejb\app\Controllers\Index.php(14): view('index', Array)
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 01:40:16 --> Undefined index: image
+#0 C:\xampp\htdocs\ejb\app\Views\index.php(539): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 539, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\ejb\app\Controllers\Index.php(14): view('index', Array)
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-05-03 01:41:47 --> Trying to get property 'image' of non-object
+#0 C:\xampp\htdocs\ejb\app\Views\index.php(539): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 539, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\ejb\app\Controllers\Index.php(14): view('index', Array)
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-05-03 01:41:49 --> Trying to get property 'image' of non-object
+#0 C:\xampp\htdocs\ejb\app\Views\index.php(539): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 539, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\ejb\app\Controllers\Index.php(14): view('index', Array)
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-05-03 22:03:48 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ejb\app\Models\CmsModel.php(30): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): App\Models\CmsModel->head()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#7 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

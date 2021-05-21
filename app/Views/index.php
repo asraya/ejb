@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Ejb || Trainning Trainer</title>
+	<title>Ejb || Driving Training</title>
 	<meta name="description" content="The small framework with powerful features">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../../../../tk.png">
+	<link rel="stylesheet" href="assets/styles/style8.css">
 
 	<!-- STYLES -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -316,6 +317,186 @@
 				background-color: rgba(221, 72, 20, .7);
 				color: rgba(255, 255, 255, .8);
 			}
+			h2 {
+   color: #00a2c6
+}
+ 
+h3 {
+   color: #00a2c6
+}
+h4 {
+   color: #00a2c6;
+   position: center;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.cardmap {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.cardview {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+.bayangan
+	{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		width: 1310px;
+        height: 350px;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    .bayangan2
+	{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		width: 300px;
+        height: 350px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+        border-radius: 10px;
+
+	}
+
+ 
+ 
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  text-align: left;
+
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+main {
+   padding: 20px;
+   overflow: auto;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #00a2c6;
+   text-align: center;
+   color: white;
+}
+.jumbotrond {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
+}
+nav a:hover {
+   font-weight: bold;
+}
+.profile header {
+   text-align: center;
+}
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+.featured-header {
+  width: 100%;
+  max-height: 670px;
+  object-fit: cover;
+  object-position: center;
+}
+.profile img {
+   width: 200px;
+   border-radius:100em;
+
+}
+#content {
+   float: left;
+   width: 75%;
+}
+aside {
+   float: right;
+   width: 70%;
+   padding-left: 20px;
+}
+* {
+   box-sizing: border-box;
+}
+
+
+
+input, textarea { 
+  padding: 9px; 
+  border: solid 1px #E5E5E5; 
+  outline: 0; 
+  font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+  width: 300px; 
+  background: #FFFFFF url('bg_form.png') left top repeat-x; 
+  background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF)); 
+  background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px); 
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+  -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+  -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+  
+  } 
+ 
+textarea { 
+  width: 1050px; 
+  max-width: 1050px; 
+  height: 150px; 
+  line-height: 150%; 
+  } 
+ 
+input:hover, textarea:hover, 
+input:focus, textarea:focus { 
+  border-color: #C9C9C9; 
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px; 
+  } 
+ 
+.form label { 
+  margin-left: 10px; 
+  color: #999999; 
+  object-position: center;
+
+  } 
+ 
+.submit input { 
+  width: auto; 
+  padding: 9px 15px; 
+  background: #617798; 
+  border: 0; 
+  font-size: 14px; 
+  color: #FFFFFF; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  }
+
 		}
 	</style>
 </head>
@@ -352,38 +533,188 @@
 </header>
 
 <!-- CONTENT -->
+  <?php $noprof=1; foreach($head as $head) { if($noprof==1) { ?>
 
 <section>
 <center>
-            <img class="img-profile rounded-circle"  src="img/tk.png"  height="350" width="300">
+<img src="<?php echo base_url('assets/images/'.$head['image']) ?>" class="img-profile rounded-circle" height="350" width="300">
+
+            <!-- <img class="img-profile rounded-circle"  src="img/tk.png"  height="350" width="300"> -->
             </center>	
 </div>
+
 </section>
 
-<!-- <div class="further">
-	<section>
+<div class="further">
 	
-	</section>
-</div> -->
+  <main>
+      <div id="content">
+          <article id="Tentang" class="card">
+              <h2>Kilas Jakarta</h2>
+              <img src="assets/image/Jakarta.jpg" alt="sejarah" class="featured-image">
+              <p>Jakarta berasal . </p>
+                  <p class="button"> 
+                      <input type="button" value="Selanjutnya" class="featured-image" /> 
+                  </p> 
+                </article>
+          <article id="Fitur" class="card">
+              <h2>Fitur</h2>
+              <center><h2>Podcast<img src="assets/image/speech.png"></h2></center>
+              <img src="assets/image/Podcast.jpg" alt="sejarah" class="featured-image">
+              <p>Podcast-Special ulang tahun Jakarta 2019& cerita rakyat. </p>
+              <p>Podcast kali ini, special ngomingon ulang tahun Jakarta yang ke-188 di tanggal 20-juli, banyak acara keren dan istimewa karna di adakan sampai sebulan penuh!!!!.</p>
+              <p class="button"> 
+                  <input type="button" value="Selanjutnya" class="featured-image"/> 
+              </p> 
+              <center><h2>Agriculture<img src="assets/image/watering.png"></h2></center>
+              <img src="assets/image/agr.jpg" alt="sejarah" class="featured-image">
+              <p>Agriculture Jakarta 2020.</p>
+              <p>DINAS PANGAN DAN PERTANIAN KABUPATEN Jakarta BERHASIL MENDATANGKAN 1.500 PETANI 
+                DARI SELURUH KECAMATAN DI KABUPATEN Jakarta DALAM RANGKA DIALOG UMUM PENINGKATAN MUTU PERTANIAN.
+                 BERTEMPAT DI AREA TAJUG GEDE CILODONG BUNGURSARI. TUJUAN DILAKSANAKAN ACARA INI ADALAH DIHARAPKAN PETANI KABUPATEN
+                  Jakarta HARUS LEBIH MAJU DAN SEJAHTERA DARI SEKARANG MELALUI BANTUAN YANG SUDAH BANYAK DIBERIKAN OLEH PEMERINTAH.</p>
+              <p class="button"> 
+                  <input type="button" value="Selanjutnya" class="featured-image"/> 
+              </p> 
+            </article>
+         
+               
+               
+             
+            
+        <article id="Lokasi" class="cardview">
+                <center><h2>Lokasi<img src="assets/image/maps.jpg"></h2></center>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15854.88206057335!2d107.43735631966463!3d-6.556922906684327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690e4e4dbaca3d%3A0x9f5e1e5795568d31!2sSitu%20Buleud!5e0!3m2!1sen!2sid!4v1586091355280!5m2!1sen!2sid" width="1050" height="450" frameborder="0" style="border:0;" class="featured-image" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>          
+          <center><h2>Kirim Komentar</h2>
+                          <form class="form"> 
+                          <p class="name"> 
+                              <input type="text" class="featured-image" name="name" id="name" placeholder="Your Name" /> 
 
+                            </p> 
+                            <p class="email"> 
+                                <input type="text" class="featured-image" name="email" id="email" placeholder="Your email" /> 
+  
+                              </p> 
+                                                                                                 
+                          <p class="text"> 
+                              <textarea name="text" class="featured-image"></textarea> 
+                          </p>                          
+                          <p class="submit"> 
+                              <input type="submit" value="Send"  /> 
+                          </p>                          
+                      </form></center>
+                    </article>
+
+      </div>    
+    <aside>
+        <article class="profile card">
+           <header>
+               <h2>Ejb</h2>
+               <figure>
+                  <img src="assets/image/b.jpg"  >
+                  <figcaption></figcaption>
+                </figure>
+           </header>
+           
+           <section>
+            <h3>Informasi Lainnya</h3>
+            <table>
+               <tr>
+                  <th>Tanggal Lahir</th>
+                  <td>September 1995</td>
+               </tr>
+               <tr>
+                  <th>Email</th>
+                  <td>asep.rayana09@gmail.com</td>
+               </tr>
+               <tr>
+                  <th>Alamat</th>
+                  <td>Jakarta</td>
+               </tr>
+              
+                  <tr>
+                  <th>Kode Telepon</th>
+                  <td>+62 8212391XXX</td>
+               </tr>
+           </table>
+         </section>
+      </article>
+  </aside>
+  <aside>
+      <article class="profile card">
+         <header>
+             <h2>Login</h2>
+             <form class="form"> 
+                <p class="name"> 
+                    <input type="text" class="featured-image" name="name" id="name" placeholder="Your Name" /> 
+
+                  </p> 
+                  <p class="email"> 
+                      <input type="text" class="featured-image" name="email" id="email" placeholder="Your email" /> 
+
+                    </p> 
+                                                                                       
+                <p class="text"> 
+                    <textarea name="text" class="featured-image"></textarea> 
+                </p>                          
+                <p class="submit"> 
+                    <input type="submit" value="Send" /> 
+                </p>                          
+            </form></center>
+             
+              <header>
+                  <h2>Berita Hoax Covid19</h2>
+                  <figure>
+                     <img src="assets/image/hoax.jpg"  >
+                     <figcaption></figcaption>
+                   </figure>
+                   <p>Kemunculan virus korona SARS-CoV-2 yang mengakibatkan pandemi COVID-19 masih menyedot sebagian besar perhatian warga di seluruh dunia termasuk Indonesia. Kejadian ini, sayangnya, ikut dimanfaatkan ... </p>
+                   <p class="button"> 
+                      <input type="button" value="Selanjutnya" class="featured-image"/> 
+                  </p> 
+              </header>
+              <header>
+                  <h2>Update Covid-19 Jakarta, PDP 7 dan ODP 202</h2>
+                  <figure>
+                      <img src="assets/image/co.jpeg"  >
+                    </figure>
+                  </header>
+                  <p>Upaya yang dilakukan adalah melakukan rapid testing (pemeriksaan) dan tracing (pelacakan) bagi warga yang kontak erat dengan PDP. "Kemarin sudah kami lakukan kepada 91 orang, dan hasilnya cukup memuaskan, hasilnya negatif," kata dia. Selain itu, ia menyebut kesadaran masyarakat akan pencegahan virus corona dinilai masih minim, terbukti masih saja terjadi kerumunan di sejumlah titik. Masyarakat yang tidak menggunakan masker juga  masih banyak.
+                         
+                    </p>
+                    <p class="button"> 
+                        <input type="button" value="Selanjutnya" class="featured-image" /> 
+                    </p> 
+                 
+       </section>
+    </article>
+</aside>
+<aside>
+    <article class="profile card">
+       <header>
+          <h2>Submission Dasar Pemrograman Web</h2>
+          <h2>Tentang</h2>
+           
+       </header>
+       
+       <p>Konsep blablablablablablablablablablablabla 
+       blablablablablablablablablablablablablablablabla
+      </p>
+     </section>
+  </article>
+</aside>
+</main>
+
+</div>
+            
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
-
+ 
 <footer>
-	<div class="environment">
-	<a href="#" class="fa fa-facebook"></a>
-	<a href="#" class="fa fa-instagram"></a>
-
-
-
-	</div>
-
-	<div class="copyrights">
-
-		<p>&copy; <?= date('Y') ?> Eka Jaya Berrindo.</p>
-
-	</div>
-
+<p>&copy; <?= date('Y') ?><?php echo $head['app_name'] ?></p>
+<?php }$noprof++; } ?>
 </footer>
+
+
 
 <!-- SCRIPTS -->
 

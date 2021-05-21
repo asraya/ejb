@@ -1,0 +1,452 @@
+CRITICAL - 2021-05-18 00:26:32 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\ejb\app\Views\admin\_partials\navbar.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 177, Array)
+#1 C:\xampp\htdocs\ejb\app\Views\admin\_partials\wrapper.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#4 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(68): view('admin/_partials...', Array)
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->carcreate()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#7 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-18 02:38:41 --> Class 'App\Controllers\CarModel' not found
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-18 02:38:49 --> Class 'App\Controllers\CarModel' not found
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-18 02:39:19 --> Call to undefined method App\Models\CmsModel::get_datatables
+#0 C:\xampp\htdocs\ejb\app\Controllers\Cms.php(22): CodeIgniter\Model->__call('get_datatables', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 02:39:59 --> Undefined index: search
+#0 C:\xampp\htdocs\ejb\app\Models\CmsModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\Cms.php(22): App\Models\CmsModel->get_datatables(NULL)
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 02:40:03 --> Undefined variable: result_order
+#0 C:\xampp\htdocs\ejb\app\Models\CmsModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\Cms.php(22): App\Models\CmsModel->get_datatables('')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 02:40:13 --> Undefined variable: result_order
+#0 C:\xampp\htdocs\ejb\app\Models\CmsModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\Cms.php(22): App\Models\CmsModel->get_datatables('')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 02:40:53 --> Undefined variable: result_order
+#0 C:\xampp\htdocs\ejb\app\Models\CmsModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\Cms.php(22): App\Models\CmsModel->get_datatables('')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 02:42:24 --> Undefined property: stdClass::$merk_mobil
+#0 C:\xampp\htdocs\ejb\app\Controllers\Cms.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 02:42:55 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\ejb\app\Controllers\Cms.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 02:43:26 --> Undefined property: stdClass::$file
+#0 C:\xampp\htdocs\ejb\app\Controllers\Cms.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 03:57:14 --> Call to undefined method App\Models\CmsModel::get_by_id
+#0 C:\xampp\htdocs\ejb\app\Controllers\Cms.php(113): CodeIgniter\Model->__call('get_by_id', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cms->edit('1')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 21:23:02 --> Call to undefined method App\Models\CmsModel::head
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Model->__call('head', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 21:23:10 --> Call to undefined method App\Models\CmsModel::head
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Model->__call('head', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 21:24:06 --> Call to undefined method App\Models\CmsModel::head
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Model->__call('head', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 21:24:37 --> Call to undefined method App\Models\CmsModel::head
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Model->__call('head', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 21:24:42 --> Call to undefined method App\Models\CmsModel::head
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Model->__call('head', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 21:26:12 --> Call to undefined method App\Models\CmsModel::head
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Model->__call('head', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 21:37:43 --> Call to undefined method App\Models\CmsModel::head
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Model->__call('head', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:05:23 --> Call to undefined method App\Models\CmsModel::head
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): CodeIgniter\Model->__call('head', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:09:16 --> Undefined variable: data
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:09:23 --> Undefined variable: head
+#0 C:\xampp\htdocs\ejb\app\Views\index.php(536): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 536, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\ejb\app\Controllers\Index.php(14): view('index')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-05-18 22:10:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): App\Models\CmsModel->head()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:10:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): App\Models\CmsModel->head()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:10:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::order_by()
+#0 C:\xampp\htdocs\ejb\app\Controllers\Index.php(11): App\Models\CmsModel->head()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Index->index()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:20:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\ejb\app\Controllers\Role.php(23): App\Models\RoleM->get_datatables('')
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:20:28 --> Undefined index: search
+#0 C:\xampp\htdocs\ejb\app\Models\RoleM.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\Role.php(23): App\Models\RoleM->get_datatables(NULL)
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 22:20:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\ejb\app\Controllers\Role.php(23): App\Models\RoleM->get_datatables('')
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:20:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\ejb\app\Controllers\Role.php(23): App\Models\RoleM->get_datatables('')
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:21:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\ejb\app\Controllers\Role.php(23): App\Models\RoleM->get_datatables('')
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:21:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\ejb\app\Controllers\Role.php(23): App\Models\RoleM->get_datatables('')
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:22:06 --> Call to undefined method App\Models\RoleM::getResult
+#0 C:\xampp\htdocs\ejb\app\Models\RoleM.php(56): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\Role.php(23): App\Models\RoleM->get_datatables('')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 22:23:20 --> Undefined variable: query
+#0 C:\xampp\htdocs\ejb\app\Models\RoleM.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\Role.php(23): App\Models\RoleM->get_datatables('')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 22:48:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ejb\app\ThirdParty\myth-auth\src\Views\_message_block.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#3 C:\xampp\htdocs\ejb\app\Views\auth\register.php(41): view('Myth\\Auth\\Views...')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('\\App\\Views\\auth...', Array, true)
+#6 C:\xampp\htdocs\ejb\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(447): view('\\App\\Views\\auth...', Array)
+#7 C:\xampp\htdocs\ejb\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(153): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\auth...', Array, Array, Array)
+#8 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->register()
+#9 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-05-18 23:23:47 --> Call to undefined method App\Models\UserPermisionModel::get_datatables
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(25): CodeIgniter\Model->__call('get_datatables', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:24:04 --> Call to undefined method App\Models\UserPermisionModel::get_datatables
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(25): CodeIgniter\Model->__call('get_datatables', Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:26:08 --> Undefined variable: result_order
+#0 C:\xampp\htdocs\ejb\app\Models\UserPermisionModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(25): App\Models\UserPermisionModel->get_datatables(NULL)
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 23:27:19 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:28:04 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:29:51 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:31:49 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:32:24 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:32:53 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:34:00 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:35:04 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:36:10 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:38:12 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:39:17 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:46:07 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:47:02 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:48:32 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:50:50 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:51:47 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 23:54:20 --> Trying to get property 'jml' of non-object
+#0 C:\xampp\htdocs\ejb\app\Controllers\Permission.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Permission->table_data()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permission))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

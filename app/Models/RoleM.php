@@ -3,9 +3,15 @@ use CodeIgniter\Model;
 
 class RoleM extends Model
 {
+	protected $allowedFields =
+    [
+		'id', 'group_id', 'user_id', 'type', 
+    ];
+	protected $table = "auth_groups_users";
 
-	var $column_order = array('id', 'group_id', 'user_id');
+	var $column_order = array('id', 'group_id', 'user_id', 'type');
 	var $order = array('id' => 'asc');
+	protected $primaryKey = 'id';
 
 	function get_datatables($Search){
 
@@ -80,5 +86,22 @@ class RoleM extends Model
 		$query = $db->query($sQuery)->getRow();
 		return $query;
 	}
+	function createrole($id = false)
+    {        
+        if($id === false){
+            return $this->db->table('auth_groups_users')
 
+            ->get()
+            ->getResultArray();
+        } else {
+            return $this->table('auth_groups_users')
+                        ->where('id', $id)
+                        ->get()
+                        ->getRowArray();
+        }   
+    }
+	function insert_role($data)
+    {
+        return $this->db->table($this->table)->insert($data);
+    }
 }

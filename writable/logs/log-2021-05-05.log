@@ -1,0 +1,921 @@
+CRITICAL - 2021-05-05 00:03:14 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('20')
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-05 00:04:52 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('20')
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-05 00:05:03 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 00:05:45 --> Undefined property: App\Controllers\CarManagement::$Book_model
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->update()
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-05 00:13:46 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\ejb\app\Views\admin\_partials\js.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\ejb\app\Views\admin\_partials\wrapper.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#4 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(11): view('admin/_partials...', Array)
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->index()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#7 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-05 01:22:37 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\ejb\app\Views\admin\_partials\js.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 189, Array)
+#1 C:\xampp\htdocs\ejb\app\Views\admin\_partials\wrapper.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#4 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(11): view('admin/_partials...', Array)
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->index()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#7 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-05 01:23:17 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\ejb\app\Views\admin\_partials\js.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 189, Array)
+#1 C:\xampp\htdocs\ejb\app\Views\admin\_partials\wrapper.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/_partials...', Array, true)
+#4 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(11): view('admin/_partials...', Array)
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->index()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#7 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-05 01:26:37 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:29:07 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:29:16 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:31:24 --> Undefined index: draw
+#0 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->edit('21')
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-05 01:34:28 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:36:25 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:36:37 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:37:59 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:40:42 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:41:48 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:42:00 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:44:38 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:46:09 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:47:10 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:47:19 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:48:13 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:48:24 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:49:05 --> Function name must be a string
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->update()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-05 01:49:45 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:53:52 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:55:27 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 01:56:09 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-05-05 02:02:10 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:04:14 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:05:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:09:54 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:11:20 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:14:00 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:31:39 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:31:43 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:34:01 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:35:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:35:24 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:37:08 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:38:32 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:38:50 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:39:18 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:39:36 --> Undefined index: search
+#0 C:\xampp\htdocs\ejb\app\Models\CarModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(21): App\Models\CarModel->get_datatables(NULL)
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:39:58 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:40:46 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:41:26 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:43:04 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:44:04 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:48:45 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:49:29 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:52:38 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 02:59:37 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:00:58 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:01:17 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:05:16 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:05:30 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:07:00 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:07:11 --> Undefined index: search
+#0 C:\xampp\htdocs\ejb\app\Models\CarModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(21): App\Models\CarModel->get_datatables(NULL)
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:07:27 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:08:39 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:09:30 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:10:19 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:11:20 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:11:42 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:11:56 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:12:10 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:12:34 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:12:59 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:13:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:13:04 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:13:08 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:13:11 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:13:18 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:13:24 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:16:14 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:16:22 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:28:22 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:28:24 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:28:25 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:28:25 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:28:32 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:31:55 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:32:11 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:32:47 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:33:24 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:36:08 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:36:38 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:42:41 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:44:00 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:49:34 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 03:50:03 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 22:18:38 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 22:19:30 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 22:20:09 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 22:22:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/d...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 22:34:37 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 22:34:45 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/u...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 22:42:47 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 22:42:59 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('CarManagement/t...', 'before')
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-05 23:36:02 --> Undefined index: search
+#0 C:\xampp\htdocs\ejb\app\Models\CarModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ejb\app\Controllers\CarManagement.php(21): App\Models\CarModel->get_datatables(NULL)
+#2 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CarManagement->table_data()
+#3 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarManagement))
+#4 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ejb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

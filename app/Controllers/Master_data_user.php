@@ -9,7 +9,7 @@ class Master_data_user extends controller
 	{ 
         $data = array(	'title'		=> 'Data',
 						'content'	=> 'admin/master data/index');
-		return view('admin/_partials/wrapper',$data);        
+		return view('admin/_partials/wrapper_users',$data);        
     }
 	
 	public function table_data(){

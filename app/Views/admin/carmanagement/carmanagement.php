@@ -4,7 +4,7 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800"> Car management</h1>
-                        <a href="<?php echo base_url('carmanagement/create'); ?>" class="btn btn-success float-right mb-3">+</a>
+                        <a href="<?php echo base_url('carmanagement/carcreate'); ?>" class="btn btn-success float-right mb-3">+</a>
                       
                     </div>
                     <div class="row">
@@ -25,9 +25,8 @@
                        <option value="Matic">Matic</option>
                        </select>
 					   <hr>
-					   <input type="text" class="form-control input-sm" name="<?= csrf_token() ?>" value="<?= csrf_hash() ?>" style="display:none;"/>
-
-					   <table id="table_teman" class="table table-bordered">
+                       <?= csrf_field(); ?>
+					   <table id="car_table" class="table table-bordered">
 
 			<thead>
 				<tr>
